@@ -1,0 +1,2295 @@
+[
+    {
+      "question": "Um campo de entrada (input field) referente ao ano de aniversário aceita valores de 1900 até 2004. Utilizando a análise do valor limite o teste usaria quais valores?",
+      "options": {
+        "a": "0,1900,2004,2005",
+        "b": "1900, 2004",
+        "c": "1899,1900,2004,2005",
+        "d": "1899, 1900, 1901,2003,2004,2005"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Quais dos seguintes testes não é um teste do tipo funcional?",
+      "options": {
+        "a": "Teste de sistema",
+        "b": "Teste de usabilidade",
+        "c": "Teste de performance (desempenho)",
+        "d": "B e C"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Quais das seguintes ferramentas seriam utilizadas na automação do teste de regressão?",
+      "options": {
+        "a": "Uma verificadora de dados",
+        "b": "Uma verificadora de limites",
+        "c": "Ferramenta de captura e reprodução",
+        "d": "Comparadora de resultados (outputs)"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Uma forma de cobertura lógica incorreta é:",
+      "options": {
+        "a": "Cobertura de sentença (comando)",
+        "b": "Cobertura de pólo",
+        "c": "Cobertura de condição",
+        "d": "Cobertura de caminho"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual das seguintes características de qualidade não faz parte da Norma ISO 9126?",
+      "options": {
+        "a": "Funcionalidade",
+        "b": "Usabilidade",
+        "c": "Suportabilidade",
+        "d": "Mantenabilidade"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Para testar uma função, o programador precisa escrever um _____, que chama a função a ser testada e passa os dados do teste.",
+      "options": {
+        "a": "Stub",
+        "b": "Driver",
+        "c": "Proxy",
+        "d": "Nenhuma das alternativas"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual das seguintes afirmações está correta, quanto ao teste de valor limite?",
+      "options": {
+        "a": "É o mesmo que o teste de Partição de Equivalência",
+        "b": "Verifica as condições de limite, ou seja, abaixo e acima dos limites de cada entrada e saída das partições equivalentes",
+        "c": "Testa as combinações de entrada",
+        "d": "É utilizada como uma estratégia de teste de caixa branca"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Escolha a melhor definição de qualidade:",
+      "options": {
+        "a": "Qualidade é um trabalho",
+        "b": "Zero defeitos",
+        "c": "Conformidade com os requisitos",
+        "d": "Traballhar como foi planejado"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Qual a melhor definição pra mascaramento de defeito (faltas)?",
+      "options": {
+        "a": "Um defeito escondendo outro defeito",
+        "b": "Criação de um caso de teste que não revela defeito",
+        "c": "Mascarar a culpa do desenvolvedor",
+        "d": "Mascarar a culpa do tester"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Uma das principais razões pela qual os desenvolvedores têm dificuldade de testar o seu próprio trabalho é:",
+      "options": {
+        "a": "Falta de documentação técnica",
+        "b": "Falta de ferramentas de testes específicas para os desenvolvedores",
+        "c": "Falta de treinamento",
+        "d": "Falta de objetividade"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Durante o processo de desenvolvimento de software, qual é o momento do processo de teste começar?",
+      "options": {
+        "a": "Quando o código estiver pronto",
+        "b": "Quando a modelagem estiver finalizada",
+        "c": "Quando os requisitos do software tiverem sido aprovados",
+        "d": "Quando o primeiro módulo de código estiver pronto para o teste de unidade"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Em uma reunião de revisão o moderador tem qual papel?",
+      "options": {
+        "a": "Tomar alguns minutos da reunião",
+        "b": "Mediador entre as pessoas",
+        "c": "Atender os telefonemas",
+        "d": "Escrever os documentos a serem revisados"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Dado o seguinte programa:\nIF X < Y\nTHEN Statement 1;\nELSE IF Y >= Z\nTHEN Statement 2;\nEND\nA complexidade ciclomática de McCabe é:",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Quantos casos de testes são necessários para cobrir todas as possibilidades de declarações (caminhos) para o seguinte fragmento de código? Supondo que as duas condições são independentes entre elas.",
+      "options": {
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "Não há como estimar"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Os casos de teste de aceitação são baseados no que?",
+      "options": {
+        "a": "Requisitos",
+        "b": "Design",
+        "c": "Código",
+        "d": "Tabela de decisão"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Quanto teste é suficiente?",
+      "options": {
+        "a": "Esta questão é impossível de responder",
+        "b": "Esta questão é fácil de ser respondida",
+        "c": "A resposta depende do risco para a sua empresa, contrato e de requisitos especiais",
+        "d": "A resposta depende da maturidade dos seus desenvolvedores"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Uma técnica de teste comum durante o teste de componente é?",
+      "options": {
+        "a": "Teste de comando e desvio",
+        "b": "Teste de usabilidade",
+        "c": "Teste de segurança",
+        "d": "Teste de performance (desempenho)"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Cobertura de sentença (comando) não irá checar.",
+      "options": {
+        "a": "Sentenças (comandos) que faltam",
+        "b": "Desvios não utilizados",
+        "c": "Código morto",
+        "d": "Sentenças (comandos) não utilizadas"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Verificação e Validação independente é:",
+      "options": {
+        "a": "Feita pelo desenvolvedor",
+        "b": "Feita pelos engenheiros de teste",
+        "c": "Feita pela gerência",
+        "d": "Feita por uma empresa de fora, que não influência o projeto"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Cobertura de código é usada para medir o que?",
+      "options": {
+        "a": "Defeitos",
+        "b": "Analisar as tendências",
+        "c": "Eficácia do teste",
+        "d": "O tempo gasto com o teste"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "A principal razão de dividir o processo de teste em tarefas distintas é:",
+      "options": {
+        "a": "Cada fase do teste tem uma proposta diferente",
+        "b": "É mais fácil para gerência o teste em fases",
+        "c": "Nós podemos executar testes em ambientes diferentes",
+        "d": "Com mais fases nós temos um melhor teste"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Em qual teste ferramentas de captura e repetição facilitam e provem mais benefícios?",
+      "options": {
+        "a": "Teste de regressão",
+        "b": "Teste de integração",
+        "c": "Teste de sistema",
+        "d": "Teste de aceite de usuário"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das seguintes afirmações não está correta?",
+      "options": {
+        "a": "Um conjunto mínimo de teste que atinge 100% de cobertura LCSAJ também irá atingir 100% de cobertura de desvio",
+        "b": "Um conjunto mínimo de teste que atinge 100% de cobertura de caminho também irá atingir 100% de cobertura de sentença (comando)",
+        "c": "Um conjunto mínimo de teste que atinge 100% de cobertura de caminho, geralmente, irá detectar mais defeitos do que um que atinja 100% de cobertura de sentença (comando)",
+        "d": "Um conjunto mínimo de teste que atinge 100% de cobertura de sentença (comando), geralmente, irá detectar mais falhas que um que atinja 100% de cobertura de desvio"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Qual dos seguintes requisitos é testável?",
+      "options": {
+        "a": "O sistema deve ser fácil de usar",
+        "b": "As partes de segurança crítica do sistema não deverão ter defeitos",
+        "c": "O tempo de resposta deve ser menos do que um segundo, de acordo com o especificado na modelagem de carga",
+        "d": "O sistema deve ser construído para ser portável"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Analise o seguinte código: ... (pseudocódigo omitido). Decida qual o número mínimo de testes que são necessários para garantir que todas as questões sejam perguntadas, todas as combinações feitas e todas respostas dadas.",
+      "options": {
+        "a": "3",
+        "b": "4",
+        "c": "5",
+        "d": "6"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Suposição de erro",
+      "options": {
+        "a": "Contribui para as técnicas de modelagem formais de teste",
+        "b": "Pode ser usada apenas no nível de componente, integração é sistema",
+        "c": "É usada apenas no teste de aceitação do usuário",
+        "d": "Não é repetida e não deve ser utilizada"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das seguintes alternativas não é verdadeira sobre os critérios de cobertura de teste?",
+      "options": {
+        "a": "Ele pode ser medido de acordo com os itens exercitados pela suíte de teste",
+        "b": "Uma medida do critério de cobertura de teste é a porcentagem de requisitos do usuário coberta",
+        "c": "Uma medida do critério de cobertura de teste é a porcentagem dos defeitos encontrados",
+        "d": "Os critérios de cobertura de teste são frequentemente usados durante a especificação do critério de conclusão do teste"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Na priorização do que testar, o objetivo mais importante é:",
+      "options": {
+        "a": "Encontrar o maior número de defeitos possíveis",
+        "b": "Testar as áreas de alto risco",
+        "c": "Obter uma boa cobertura de teste",
+        "d": "Testar o que for mais fácil de ser testado"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Dada os seguintes conjuntos de termos de gerenciamento de teste (I-V) e as atividades descritas (A-E), qual alternativa contém a melhor combinação?",
+      "options": {
+        "a": "I-C, II-B, III-A, IV-E, V-D",
+        "b": "I-B, II-E, III-A, IV-D, V-C",
+        "c": "I-C, II-D, III-A, IV-E, V-B",
+        "d": "I-B, II-A, III-D, IV-C, V-E"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Qual das alternativas sobre o teste de sistema não é verdadeira?",
+      "options": {
+        "a": "Testes de sistema são frequentemente executados por equipes independentes",
+        "b": "Testes funcionais são usados mais do que os testes estruturais",
+        "c": "As falhas encontradas durantes os testes podem ser mais caras para serem corrigidas",
+        "d": "Os usuários finais devem ser envolvidos nos testes de sistema"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Qual das seguintes alternativas é falsa?",
+      "options": {
+        "a": "Incidentes devem ser sempre corrigidos",
+        "b": "Um incidente ocorre quando um resultado encontrado no teste difere-se com o esperado",
+        "c": "Incidentes podem ser analisados para ajudar na melhoria do processo de teste",
+        "d": "Um incidente pode ser levando contra a documentação"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Podemos dizer que os testes executados foram o suficiente quando:",
+      "options": {
+        "a": "O prazo termina",
+        "b": "O nível de confiança requerido é alcançado",
+        "c": "Falhas não são mais encontradas",
+        "d": "Os usuários não irão achar as falhas graves"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual das seguintes afirmações não é verdadeira quanto aos incidentes?",
+      "options": {
+        "a": "A resolução dos incidentes é de responsabilidade do autor do software que está sendo testado",
+        "b": "Incidentes podem ser levantados contra os requisitos dos usuários",
+        "c": "Incidentes exigem investigação e/ou correção",
+        "d": "Incidentes são levantados quando o resultado encontrado difere-se do esperado"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das alternativas não é descrita no padrão de teste de componente?",
+      "options": {
+        "a": "Teste de sintaxe",
+        "b": "Particionamento de equivalência",
+        "c": "Teste de stress",
+        "d": "Cobertura de decisão"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Qual das seguintes alternativas é falsa?",
+      "options": {
+        "a": "Em um sistema duas falhas podem ter diferentes severidades",
+        "b": "Um sistema se torna mais confiável, após a depuração para retirar um defeito",
+        "c": "Um defeito nem sempre afeta a confiança do sistema",
+        "d": "Erros não detectados podem levar a falha e, eventualmente, a um comportamento incorreto"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual das seguintes afirmações sobre ferramenta de captura e reprodução, não está correta?",
+      "options": {
+        "a": "São utilizadas para suporta testes com vários usuários",
+        "b": "São usadas para captar e demonstrar os requisitos dos usuários",
+        "c": "Elas são as mais adquiridas ferramentas do tipo CAST",
+        "d": "Elas capturam o comportamento do usuário"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Como poderíamos estimar o total de reteste que possa ser necessário?",
+      "options": {
+        "a": "Com métricas de projetos anteriores similares",
+        "b": "Com discussões com a equipe de desenvolvimento",
+        "c": "Com o tempo alocado para os testes de regressão",
+        "d": "A e B"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Qual das alternativas é verdadeira quanto ao modelo V?",
+      "options": {
+        "a": "Ele afirma que os módulos são testados de acordo com requisitos dos usuários",
+        "b": "Ele apenas abrange a fase de teste",
+        "c": "Ele especifica as técnicas de teste a serem usadas",
+        "d": "Ele inclui a verificação da modelagem"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "O Oráculo de teste usa o pressuposto:",
+      "options": {
+        "a": "Que existe algo no sistema contra o qual a saída do teste pode ser verificada",
+        "b": "Que o testador pode identificar, rotineiramente, o correto resultado de um teste",
+        "c": "Que o testador tem total conhecimento do software sob teste",
+        "d": "Que os testes são revisados por testadores experientes"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das seguintes alternativas caracteriza o custo dos defeitos?",
+      "options": {
+        "a": "Ele é mais baixo quando os defeitos são encontrados nas primeiras etapas do desenvolvimento e mais alto quando a correção ocorre nas últimas fases do teste",
+        "b": "O defeito é mais fácil de ser encontrado no teste de sistema, porém a sua correção é mais cara",
+        "c": "Os defeitos são mais baratos de serem achados nas fases iniciais do desenvolvimento, porém em contrapartida, o custo da correção é mais alto",
+        "d": "Embora os defeitos sejam mais caros de serem achados durante fases iniciais do desenvolvimento, eles são mais baratos de serem corrigidos"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das seguintes alternativas normalmente não deve ser um objetivo do teste?",
+      "options": {
+        "a": "Achar as falhas do software",
+        "b": "Avaliar se o software está pronto para a produção",
+        "c": "Demonstrar que o software não funciona",
+        "d": "Provar que o software está correto"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Qual das seguintes alternativas é uma forma de teste funcional?",
+      "options": {
+        "a": "Análise de valor limite",
+        "b": "Teste de usabilidade",
+        "c": "Teste de desempenho",
+        "d": "Teste de segurança"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das alternativas é um item que não parte do plano de teste?",
+      "options": {
+        "a": "As funcionalidades a serem testadas",
+        "b": "Relatórios de incidentes",
+        "c": "Riscos",
+        "d": "Cronograma"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual destas atividades fornece um maior potencial de economia no uso de um CAST?",
+      "options": {
+        "a": "Gerenciamento do teste",
+        "b": "Modelagem do teste",
+        "c": "Execução do teste",
+        "d": "Planejamento do teste"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Qual das seguintes alternativas não é uma técnica de caixa branca?",
+      "options": {
+        "a": "Teste de sentença (comando)",
+        "b": "Teste de caminho",
+        "c": "Teste de fluxo de dados",
+        "d": "Teste de transição de estados"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "A análise de fluxo de dados estuda:",
+      "options": {
+        "a": "Possíveis falhas de comunicação em um programa",
+        "b": "A taxa de variação dos valores de dados enquanto o programa é executado",
+        "c": "O uso de dados ao longo do código",
+        "d": "A complexidade intrínseca do código"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Na modelagem de um sistema que trabalha com impostos a serem pagos: ... (detalhes omitidos). Para o mais próximo valor inteiro, qual dos valores apresentados mostra um caso de teste usando a análise de valor limite?",
+      "options": {
+        "a": "R$1500",
+        "b": "R$32001",
+        "c": "R$33501",
+        "d": "R$28000"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Um importante benefício da inspeção de código é:",
+      "options": {
+        "a": "Permitir que o código seja testado antes do ambiente de execução está pronto",
+        "b": "Poder ser feito pela pessoa que escreveu o código",
+        "c": "Pode ser feito por uma equipe inexperiente",
+        "d": "Ser barato de ser executado"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das seguintes alternativas é a melhor fonte dos resultados esperado para os scripts de teste de aceite de usuário?",
+      "options": {
+        "a": "Os resultados atuais",
+        "b": "A especificação do programa",
+        "c": "Os requisitos dos usuários",
+        "d": "A especificação do sistema"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Qual a principal diferença entre um acompanhamento e uma inspeção?",
+      "options": {
+        "a": "Uma inspeção é dirigida pelo autor, enquanto um acompanhamento é dirigido por um moderador treinado",
+        "b": "Uma inspeção tem um líder treinado, enquanto um acompanhamento não tem um líder",
+        "c": "Os autores não estão presentes durante as inspeções, já no acompanhamento eles estão",
+        "d": "Um acompanhamento é liderado pelo próprio autor, enquanto uma inspeção é liderada por um moderador treinado"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Qual das alternativas abaixo descreve o principal benefício da verificação antecipada no ciclo de vida do software?",
+      "options": {
+        "a": "Ela permite a identificação de mudanças nos requisitos dos usuários",
+        "b": "Ela facilita a montagem do ambiente de teste",
+        "c": "Ela reduz a multiplicação de defeitos",
+        "d": "Ela permite que os testadores sejam envolvidos antecipadamente no projeto"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Testes de integração pequenos:",
+      "options": {
+        "a": "Testam componentes individualmente que foram desenvolvidos",
+        "b": "Testam a interação entre os módulos ou subsistemas",
+        "c": "São usados apenas para componentes que formam uma funcionalidade do sistema",
+        "d": "Testam as interfaces com outros sistemas"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "A melhor descrição de análise estática é?",
+      "options": {
+        "a": "A análise de programas batch",
+        "b": "A revisão dos planos de teste",
+        "c": "A análise do código do programa",
+        "d": "O uso de teste de caixa branca"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Teste alpha é:",
+      "options": {
+        "a": "Teste após a liberação para representantes dos usuários no ambiente de desenvolvimento",
+        "b": "O primeiro teste que é realizado",
+        "c": "Teste antes da liberação por representantes dos usuários no ambiente de desenvolvimento",
+        "d": "Teste antes da liberação por representantes dos usuários no ambiente dos próprios usuários"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Uma falha é:",
+      "options": {
+        "a": "Encontrada no software, o resultado de um erro",
+        "b": "Desvio de comportamento especificado",
+        "c": "Um incorreto passo, processo ou definição de dado em um programa de computador",
+        "d": "Uma ação humana que produz um resultado incorreto"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Na modelagem de um sistema que trabalha com impostos a serem pagos: ... (detalhes omitidos). Para o mais próximo valor inteiro, qual desses grupos de números cai na mesma classe de equivalência?",
+      "options": {
+        "a": "R$4.800; R$14.000; R$28.000",
+        "b": "R$5.200; R$5.500; R$28.000",
+        "c": "R$28.001; R$32.000; R$35.000",
+        "d": "R$5.800; R$28.000; R$32.000"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "O mais importante na modelagem antecipada de teste é:",
+      "options": {
+        "a": "Tornar mais fácil a preparação do teste",
+        "b": "Faz com que as inspeções não sejam requeridas",
+        "c": "Pode prevenir a multiplicação de defeitos",
+        "d": "Irá achar todos os defeitos"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Qual das alternativas abaixo sobre revisões é verdadeira?",
+      "options": {
+        "a": "Revisões não podem se feitas na especificação dos requisitos dos usuários",
+        "b": "Revisões são caminhos menos eficazes de testar o código",
+        "c": "Revisões não são boas para encontrar defeitos nos planos de teste",
+        "d": "Revisões devem ser feitas nas especificações, código e planos de teste"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Os casos de teste são modelados durante:",
+      "options": {
+        "a": "A gravação do teste",
+        "b": "O planejamento do teste",
+        "c": "A configuração do teste",
+        "d": "Durante a especificação do teste"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Um sistema de gerenciamento de configuração normalmente não prover:",
+      "options": {
+        "a": "Ligação dos requisitos do cliente com os números de versão",
+        "b": "Facilidade na comparação dos resultados dos testes com os resultados esperados",
+        "c": "As diferenças entre as versões do código de um componente do software",
+        "d": "Acesso restrito as bibliotecas do código fonte"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Quando algo visível para os usuários finais é um desvio em relação ao especificado ou um comportamento não esperado, isso é chamado de:",
+      "options": {
+        "a": "Um erro",
+        "b": "Uma anomalia",
+        "c": "Uma falha",
+        "d": "Um defeito",
+        "e": "Um engano"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "O teste de regressão deve ser feito:",
+      "options": {
+        "a": "I e II são verdadeiras, III e V são falsas",
+        "b": "II, III e IV são verdadeiras, I e V são falsas",
+        "c": "II e IV são verdadeiras, I, III e V são falsas",
+        "d": "II é verdadeira, I, III, IV e V são falsas",
+        "e": "Todas são verdadeiras"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "De acordo com o padrão IEEE 829 o plano de teste contém todos os seguintes itens, exceto:",
+      "options": {
+        "a": "Itens de teste",
+        "b": "Entregáveis de teste",
+        "c": "Tarefas de teste",
+        "d": "Ambiente de teste",
+        "e": "Especificação de teste"
+      },
+      "correct_answer": "e"
+    },
+    {
+      "question": "O processo de teste deve parar quando:",
+      "options": {
+        "a": "Todos os testes planejados terem sido executados",
+        "b": "O tempo estimado esgotar",
+        "c": "Todos os defeitos terem sido corrigidos",
+        "d": "A e C",
+        "e": "Depende do risco para o sistema que está sendo testado"
+      },
+      "correct_answer": "e"
+    },
+    {
+      "question": "O número em um sistema de controle de estoque pode variar entre 10.000 e 99.999 inclusive. Quais das seguintes entradas poderiam ser o resultado da modelagem de teste usando apenas classes de equivalências válidas e limites válidos?",
+      "options": {
+        "a": "1.000, 5.000, 99.999",
+        "b": "9.999, 50.000, 100.000",
+        "c": "10.000, 50.000, 99.999",
+        "d": "10.000, 99.999",
+        "e": "9.999, 10.000, 50.000, 99.999, 100.000"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Considere as seguintes afirmações sobre o teste de software iniciar, de forma antecipada no ciclo de vida do software:",
+      "options": {
+        "a": "I, III e IV são verdadeiras. II e V são falsas",
+        "b": "III é verdadeira, I, II, IV e V são falsas",
+        "c": "III e IV são verdadeiras. I, II e V são falsas",
+        "d": "I, III, IV e V são verdadeiras, II é falsa",
+        "e": "I e III são verdadeiras, II, IV e V são falsas"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das seguintes afirmações está correta, quanto ao teste de sistema não funcional?",
+      "options": {
+        "a": "Teste para verificar se algo no sistema não funciona corretamente",
+        "b": "Testa os atributos de qualidade, incluindo o desempenho e usabilidade",
+        "c": "Testa uma funcionalidade do sistema usando apenas o componente do software, necessário para a execução da função",
+        "d": "Testa uma funcionalidade do sistema usando apenas o componente do software, necessário para a execução da ação",
+        "e": "Testa as funcionalidades que não deveriam existir"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual das seguintes alternativas não faz parte do gerenciamento de configuração?",
+      "options": {
+        "a": "Contabilidade e estado dos itens de configuração",
+        "b": "Auditoria de conformidade ISO9001",
+        "c": "Identificação das versões dos testes",
+        "d": "Registro das mudanças que ocorrem na documentação, ao longo do projeto",
+        "e": "Acesso controlado as bibliotecas"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual das seguintes alternativas é a principal proposta da estratégia de integração para teste de integração pequeno?",
+      "options": {
+        "a": "Para garantir que todos os pequenos módulos serão testados adequadamente",
+        "b": "Para garantir que todas as interfaces do sistema funcionem com outros sistemas e com rede",
+        "c": "Para especificar quais módulos combinam, quando e com quantos de uma só vez",
+        "d": "Para garantir que o teste de integração possa ser realizado por uma equipe pequena",
+        "e": "Para especificar como o software deve ser dividido em módulos"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Qual o objetivo dos critérios de conclusão de teste em um plano de teste?",
+      "options": {
+        "a": "Para saber quando a execução de um teste deve ser terminada",
+        "b": "Garantir que o caso de teste está completo",
+        "c": "Para definir os critérios usados na geração das entradas do teste",
+        "d": "Para saber quando o planejamento do teste está completo",
+        "e": "Para planejar quando os testes devem parar"
+      },
+      "correct_answer": "e"
+    },
+    {
+      "question": "Considere as seguintes afirmações:",
+      "options": {
+        "a": "II e V são verdadeiras, I, III e IV são falsas",
+        "b": "I e V são verdadeiras, II, III e IV são falsas",
+        "c": "I, IV e V são verdadeiras, II e III são falsas",
+        "d": "I e II são verdadeiras, III, IV e V são falsas",
+        "e": "I é verdadeira, II, III, IV e V são falsas"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Dado o seguinte código, o que é verdadeiro sobre o número mínimo de casos de teste necessários para uma total cobertura de sentença (comando) e desvio:",
+      "options": {
+        "a": "1 teste de cobertura de sentença (comando), 3 para a cobertura de desvio",
+        "b": "1 teste de cobertura de sentença (comando), 2 para a cobertura de desvio",
+        "c": "1 teste cobertura de sentença (comando), 1 para a cobertura de desvio",
+        "d": "2 testes de cobertura de sentença (comando), 3 para a cobertura de desvio",
+        "e": "2 testes de cobertura de sentença (comando), 2 para a cobertura de desvio"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Dado o seguinte código:",
+      "options": {
+        "a": "1 teste de cobertura de sentença (comando), 1 para a cobertura de desvio",
+        "b": "1 teste de cobertura de sentença (comando), 2 para a cobertura de desvio",
+        "c": "1 teste de cobertura de sentença (comando), 3 para a cobertura de desvio",
+        "d": "2 testes de cobertura de sentença (comando), 2 para a cobertura de desvio",
+        "e": "2 testes de cobertura de sentença (comando), 3 para a cobertura de desvio"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Dado o seguinte código, qual a alternativa verdadeira:",
+      "options": {
+        "a": "1 teste de cobertura de sentença (comando), 3 para a cobertura de desvio",
+        "b": "2 testes de cobertura de sentença (comando), 2 para a cobertura de desvio",
+        "c": "2 testes de cobertura de sentença (comando), 3 para a cobertura de desvio",
+        "d": "3 testes de cobertura de sentença (comando), 3 para a cobertura de desvio",
+        "e": "3 testes de cobertura de sentença (comando), 2 para a cobertura de desvio"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Considere o seguinte:",
+      "options": {
+        "a": "CS = 1 e CD = 1",
+        "b": "CS = 1 e CD = 2",
+        "c": "CS = 1 e CD = 3",
+        "d": "CS = 2 e CD = 2",
+        "e": "CS = 2 e CD = 3"
+      },
+      "correct_answer": "e"
+    },
+    {
+      "question": "O ponto de partida se você deseja uma (nova) ferramenta de teste é:",
+      "options": {
+        "a": "Assistir uma exposição sobre ferramentas",
+        "b": "Convidar um fornecedor para dá uma demonstração",
+        "c": "Analisar as suas necessidades e exigências",
+        "d": "Calcular o seu orçamento para a aquisição da ferramenta",
+        "e": "Pesquisar na Internet"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Quando uma nova ferramenta de teste é adquirida, ela deve ser utilizada primeiro:",
+      "options": {
+        "a": "Por uma pequena equipe para ela estabelecer o melhor modo de usar a ferramenta",
+        "b": "Por todos que a ferramenta possa ser útil",
+        "c": "Por uma equipe independente de teste",
+        "d": "Pelos gerentes para verem em quais projetos ela pode ser usada",
+        "e": "Pelo fornecedor contratante para escrever os primeiros scripts"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "O que a análise estática pode não encontrar?",
+      "options": {
+        "a": "A utilização de uma variável antes de ela ter sido definida",
+        "b": "Código não utilizado ('morto')",
+        "c": "Se o valor armazenado em uma variável está correto",
+        "d": "A redefinição de uma variável antes de ela ter sido utilizada",
+        "e": "Violações do tamanho de arrays"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Qual das seguintes alternativas não é uma técnica de caixa preta?",
+      "options": {
+        "a": "Partição de equivalência",
+        "b": "Teste de transição de estados",
+        "c": "Teste de Sequência de Código Linear e Salto (LCSAJ)",
+        "d": "Teste de sintaxe",
+        "e": "Teste de valor limite"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "Teste beta é:",
+      "options": {
+        "a": "Realizado pelos clientes, na sua própria empresa",
+        "b": "Realizado pelos clientes do ambiente de desenvolvimento",
+        "c": "Realizado por uma equipe independente de teste",
+        "d": "Útil para fazer testes de software feitos sobre encomenda",
+        "e": "Realizado o mais cedo possível no ciclo de vida do software"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Dados os seguintes tipos de ferramenta, quais delas são, normalmente, usadas pelos desenvolvedores e quais por uma equipe de teste independente:",
+      "options": {
+        "a": "Desenvolvedores: I, IV e VI; equipe de teste: II, III e V",
+        "b": "Desenvolvedores: I e IV; equipe de teste: II, III, V e VI",
+        "c": "Desenvolvedores: I, II, III e IV; equipe de teste: V e VI",
+        "d": "Desenvolvedores: II, IV e VI; equipe de teste: I, III e V",
+        "e": "Desenvolvedores: I, III, IV e V; equipe de teste: II e VI"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "O principal foco dos testes de aceitação é:",
+      "options": {
+        "a": "Encontrar falhas no sistema",
+        "b": "Garantir que o sistema esteja adequado para todos os usuários",
+        "c": "Testar o sistema com outros sistemas",
+        "d": "Testar com perspectiva nas regras de negócio",
+        "e": "Teste por uma equipe de teste diferente"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Qual das seguintes afirmações sobre o padrão do teste de componente é falsa?",
+      "options": {
+        "a": "Técnicas de modelagem de caixa preta têm uma técnica de medição associada",
+        "b": "Técnicas de caixa branca têm uma técnica de medição associada",
+        "c": "Complexidade ciclomática não é um teste de medição técnica",
+        "d": "Técnicas de medições de caixa preta têm uma técnica de modelagem de teste associada",
+        "e": "Técnicas de medições de caixa branca têm uma técnica de modelagem de teste associada"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual das seguintes afirmações não é verdadeira:",
+      "options": {
+        "a": "Inspeção é o processo mais formal de revisão",
+        "b": "As inspeções devem ser lideradas por um líder treinado",
+        "c": "Gerentes podem realizar inspeções em documentos de gerência",
+        "d": "Inspeção é adequada mesmo quando não existem documentos escritos",
+        "e": "Inspeção compara os documentos com os antecessores (originais)"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "A execução de uma ferramenta de teste comercial seria capaz de realizar todos os seguintes itens exceto:",
+      "options": {
+        "a": "Geração dos resultados esperados",
+        "b": "A reprodução de entradas de acordo com o script programado",
+        "c": "Comparação dos resultados esperados com os resultados atuais",
+        "d": "Gravação das entradas de teste",
+        "e": "Leitura dos valores de teste de um arquivo de dados"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "A diferença entre os retestes e os testes de regressão é:",
+      "options": {
+        "a": "No reteste um teste está sendo executado novamente; o teste de regressão procurar por efeitos colaterais inesperados",
+        "b": "O reteste procura por efeitos colaterais inesperados; o teste de regressão é a repetição de testes",
+        "c": "O reteste é feito após as falhas serem corrigidas; o teste de regressão é feito o mais breve possível",
+        "d": "O reteste utiliza ambientes diferentes, o teste de regressão usa o mesmo ambiente",
+        "e": "O reteste é feito pelos desenvolvedores; o teste de regressão é feitos por testadores independentes"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Resultados esperados são:",
+      "options": {
+        "a": "Apenas o importante nos testes de sistema",
+        "b": "Apenas são usados nos testes de componente",
+        "c": "Nunca são especificados previamente",
+        "d": "Mais útil quando são especificados previamente",
+        "e": "Derivados do código"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Os gerentes de teste não devem:",
+      "options": {
+        "a": "Reportar sobre os desvios do plano do projeto",
+        "b": "Assinar a liberação do sistema para produção",
+        "c": "Re-alocar recursos para atender os planos originais",
+        "d": "Levantar as falhas que foram encontradas",
+        "e": "Fornecer informações para a análise de risco e melhoria da qualidade"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual a melhor forma de encontrar código inatingível (código morto)?",
+      "options": {
+        "a": "Revisões no código",
+        "b": "Inspeções no código",
+        "c": "Uma ferramenta de cobertura",
+        "d": "Uma ferramenta de gerenciamento de teste",
+        "e": "Uma ferramenta de análise estática"
+      },
+      "correct_answer": "e"
+    },
+    {
+      "question": "Uma ferramenta de rastreabilidade, registro de incidentes ou agendamento de testes é chamada de?",
+      "options": {
+        "a": "Ferramenta de análise dinâmica",
+        "b": "Ferramenta de execução de teste",
+        "c": "Ferramenta de depuração",
+        "d": "Ferramenta de gerenciamento de teste",
+        "e": "Ferramenta de gerenciamento de configuração"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Qual informação não é incluída no relatório de incidentes?",
+      "options": {
+        "a": "Como corrigir o defeito",
+        "b": "Como reproduzir o defeito",
+        "c": "Detalhes do ambiente de teste",
+        "d": "Severidade e prioridade",
+        "e": "O real e os resultados esperados"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual alternativa combina melhor com as características apresentadas abaixo com o processo de revisão?",
+      "options": {
+        "a": "x = IV, y = III, w = II e V, k = I",
+        "b": "x = IV e V, y = III, w = II, k = I",
+        "c": "x = I e V, y = III, w = II, k = IV",
+        "d": "x = V, y = IV, w = III, k = I e II",
+        "e": "x = IV e V, y = I, w = II, k = III"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual das seguintes alternativas não faz parte do teste de sistema?",
+      "options": {
+        "a": "Teste baseado nas regras de negócio",
+        "b": "Teste de desempenho, carga e stress",
+        "c": "Teste baseado em requisitos",
+        "d": "Teste de usabilidade",
+        "e": "Teste de integração top-down"
+      },
+      "correct_answer": "e"
+    },
+    {
+      "question": "Qual alternativa sobre os resultados esperados é falsa?",
+      "options": {
+        "a": "Os resultados esperados são definidos de acordo com o comportamento do software",
+        "b": "Os resultados esperados são derivados da especificação, não do código",
+        "c": "Os resultados esperados incluem as mensagens da tela e as mudanças em arquivos e banco de dados",
+        "d": "Os resultados esperados devem ser definidos antes do teste ser executado",
+        "e": "Os resultados esperados podem incluir constantes de tempo, como o tempo de resposta"
+      },
+      "correct_answer": "a"
+    },
+    {
+      "question": "Qual a norma que aborda as definições dos termos de teste?",
+      "options": {
+        "a": "ISO / IEC 12207",
+        "b": "BS7925-1",
+        "c": "BS7925-2",
+        "d": "ANSI / IEEE 829",
+        "e": "ANSI / IEEE 729"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "O custo da correção de um defeito:",
+      "options": {
+        "a": "Não é importante",
+        "b": "Aumenta à medida do passar do tempo da vida do software",
+        "c": "Diminui à medida do passar do tempo da vida do software",
+        "d": "É maior se encontrado durante os requisitos do que na modelagem funcional",
+        "e": "Não há como determinar"
+      },
+      "correct_answer": "b"
+    },
+    {
+      "question": "Qual das seguintes alternativas não está incluída no plano de teste de acordo com o padrão de documentação de teste?",
+      "options": {
+        "a": "Itens de teste (ex. versões do software)",
+        "b": "O que não será testado",
+        "c": "Ambiente de teste",
+        "d": "Plano de qualidade",
+        "e": "Cronograma e prazos"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Revisões ou inspeções podem ser consideradas como parte do teste?",
+      "options": {
+        "a": "Não, porque elas se aplicam a documentação do desenvolvimento",
+        "b": "Não, porque são normalmente aplicadas antes dos testes",
+        "c": "Não, porque não se aplicam ao teste de documentação",
+        "d": "Sim, porque ambas ajudam a detecção de defeitos e melhoram a qualidade",
+        "e": "Sim, porque os testes incluem todas as atividades não construtivas"
+      },
+      "correct_answer": "d"
+    },
+    {
+      "question": "Qual das seguintes alternativas não faz parte do teste de desempenho?",
+      "options": {
+        "a": "Medir o tempo de resposta",
+        "b": "Medir a taxa de transações",
+        "c": "Teste de recuperação",
+        "d": "Simular vários usuários",
+        "e": "Geração de várias transações"
+      },
+      "correct_answer": "c"
+    },
+    {
+      "question": "A suposição de erro é melhor usada:",
+      "options": {
+        "a": "Como primeira abordagem para casos de testes decorrentes",
+        "b": "Após uma técnica mais formal ter sido aplicada",
+        "c": "Para testadores inexperientes",
+        "d": "Depois do sistema ter passado nos testes",
+        "e": "Apenas para os usuários finais"
+      },
+      "correct_answer": "b"
+    },
+    {
+        "question": "Qual dos cenários abaixo descreve uma maneira pela qual um defeito do software pode causar danos diretamente a uma companhia?",
+        "options": {
+          "a": "Um banco que obtém 5% de seus rendimentos com taxas de ATM sofre uma interrupção em sua rede de ATM devido a um defeito de software.",
+          "b": "Um software de navegação em um automóvel exibe rolas através de rios usando o mesmo ícone para balsa e para ponte.",
+          "c": "Software de monitoramento de emissões sub-relata a porcentagem de gases tóxicos emitidos por uma fábrica.",
+          "d": "Um vendedor digita a letra \"1\"\" no lugar do número \"1\". e uma proposta importante não é entregue a um cliente em potencial."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere a seguinte seqüência de eventos.",
+        "options": {
+          "a": "I é o defeito, II é a causa raiz e III e IV são efeitos.",
+          "b": "I é o efeito. II c a causa raiz, e III e IV são defeitos.",
+          "c": "I é a causa raiz, II e III são defeitos, e IV é o efeito.",
+          "d": "I é a causa raiz, II é o defeito, e III e IV são efeitos."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual dos seguintes é o melhor exemplo de porque o teste é necessário?",
+        "options": {
+          "a": "Gerentes de   projeto   escrevem   planos   de   projeto. Stakeholders de projeto nem sempre revisam os planos de projeto.",
+          "b": "Softwares modernos podem ter mais de um milhão de linhas de código. De acordo com estudos da indústria, um programador, de linguagem C mediano introduz um bug para cada 25 linhas de código.",
+          "c": "Usuários têm idéias pouco comuns sobre o que o software deveria ser capaz de fazer. Programadores não entendem os usuários.",
+          "d": "Equipe de help desk depende de contornar os problemas para ajudar os clientes com os bugs conhecidos. Testadores são as únicas pessoas que descobrem como contornar os bugs."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual dos seguintes é um exemplo da contribuição do teste para aumentar a qualidade?",
+        "options": {
+          "a": "Um gerente de projeto pede a um líder de teste para estimar o esforço de teste.",
+          "b": "Um testador instala um item de teste no ambiente de teste.",
+          "c": "Um testador encontra um bug que é resolvido antes do release.",
+          "d": "Um líder de teste escreve um relatório de resumo de teste."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "O relacionamento entre o significado das palavras \"engano\" e \"erro\" é o mesmo que o significado de qual dos seguintes pares de palavras?",
+        "options": {
+          "a": "\"Falha\" e \"bug\"",
+          "b": "\"Falha\" e \"defeito\"",
+          "c": "\"Erro\" e \"defeito\"",
+          "d": "\"Defeito\" e \"bug\""
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Um componente de qualidade é um que:",
+        "options": {
+          "a": "Atinge as necessidades do usuário e do cliente.",
+          "b": "Foi finalizado no prazo",
+          "c": "Necessitou menos do que a quantidade de esforço estimada.",
+          "d": "Passou por uma revisão de código."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere os objetivos seguintes.",
+        "options": {
+          "a": "I, II, III, IV e V.",
+          "b": "I, II e IV.",
+          "c": "I, II, III e IV.",
+          "d": "I e V."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Um testador participa de uma revisão de requisitos e identifica ambigüidades que poderiam ter resultado em enganos de programação. Este é um exemplo de qual dos seguintes propósitos do teste?",
+        "options": {
+          "a": "Encontrar defeitos.",
+          "b": "Prover confiança.",
+          "c": "Prevenir defeitos.",
+          "d": "Prover informações."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Quais das atividades estão envolvidas no teste?",
+        "options": {
+          "a": "Atividades no final do ciclo de vida do software.",
+          "b": "Somente atividades que avaliam produtos de software.",
+          "c": "Atividades envolvendo executar um teste pelo componente ou sistema sob teste.",
+          "d": "Atividades durante todo o ciclo de vida do software incluindo planejamento, preparação e avaliação."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Considere o cenário seguinte. Você está testando um produto e encontrou 100 defeitos. Dois terços daqueles defeitos estão na interface com o usuário e nos módulos de controle de acesso, enquanto que os 33 defeitos restantes estão espalhados pelos seis outros módulos. Qual dos seguintes é o principio de teste que melhor se aplica a este cenário?",
+        "options": {
+          "a": "Agrupamento de defeitos",
+          "b": "Ausência de erros",
+          "c": "Teste exaustivo é impossível",
+          "d": "Controlar ativamente o projeto dos testes enquanto você executa aqueles testes."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Teste exaustivo envolve:",
+        "options": {
+          "a": "Todos os pares de valores de entrada e pré-condições.",
+          "b": "Pelo menos um de cada possível valor de entrada e pré-condições.",
+          "c": "Todas as combinações de valores de entrada e pré-condições.",
+          "d": "Todas as combinações de valores de entrada e saída."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Qual das seguintes tarefas de teste é parte da atividade de planejamento do teste?",
+        "options": {
+          "a": "Medir e analisar resultados.",
+          "b": "Determinar os critérios de saída.",
+          "c": "Revisar a base de teste.",
+          "d": "Checar os registros de teste contra os critérios de saída."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Porque nós executamos teste de confirmação?",
+        "options": {
+          "a": "Demonstrar adaptação ao propósito.",
+          "b": "Garantir que defeitos não foram introduzidos em áreas não alteradas.",
+          "c": "Determinar se um componente satisfaz ou não as necessidades do usuário/cliente",
+          "d": "Verificar o sucesso das ações corretivas"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Por que é importante expressar claramente os objetivos do teste?",
+        "options": {
+          "a": "Porque as pessoas tendem a alinhar seus planos com os objetivos definidos pela gerencia.",
+          "b": "Porque cobertura deve ser medida contra os objetivos do teste.",
+          "c": "Porque o nível do risco do produto é determinado pelos objetivos do teste.",
+          "d": "Porque identificar objetivos do teste é a tarefa principal na atividade de planejamento do teste."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Para manter a motivação, testadores e desenvolvedores igualmente necessitam da mente correta. Bons desenvolvedores precisam ter uma percepção positiva na sua própria habilidade e na habilidade do time de endereçar os riscos técnicos e de negócio que confrontam seus projetos de programação. Qual das opções descreve exatamente a mente contrastante de um bom testador?",
+        "options": {
+          "a": "Bons testadores identificam falhas com a intenção de serem críticos em relação ao produto e ao autor.",
+          "b": "Bons testadores dizem a verdade como eles vêem e não são terrivelmente preocupados em como as pessoas reagem a aqueles fatos.",
+          "c": "Bons testadores são pessimistas profissionais que acreditam que o produto provavelmente contém defeitos e que eles podem encontrá-los.",
+          "d": "Bons testadores focam nos riscos técnicos sobre os riscos de negócio, visto que eles querem encontrar tantos defeitos quanto for possível."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Qual meta o teste independente encoraja?",
+        "options": {
+          "a": "Reduzir os custos de teste antes do release.",
+          "b": "Maximizar o teste pelos familiarizados com o código.",
+          "c": "Melhorar a comunicação e o relacionamento entre testadores e os outros.",
+          "d": "Prover um grau maior de objetividade e reduzir a influência do autor"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Um objetivo comum do teste é prover informação. O teste deveria prover informação suficiente para os stakeholders tomarem decisões informadas sobre o lançamento do software ou sistema sendo testado. Qual das seguintes é uma atividade fundamental do processo de teste durante a qual a suficiência do teste e da informação resultante é avaliada?",
+        "options": {
+          "a": "Analise e projeto.",
+          "b": "Implementação e execução.",
+          "c": "Avaliação dos critérios de saída e relatórios.",
+          "d": "Especificação de requisitos."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Você está trabalhando como único testador em um pequeno projeto que usa o modelo V e acabou de liberar um rascunho da especificação de requisitos. Considere as seguintes possibilidades:",
+        "options": {
+          "a": "I, II, III, e IV são todas verdadeiras.",
+          "b": "II, III, e IV são verdadeiras.",
+          "c": "Somente I é verdadeira.",
+          "d": "I, II, e III são verdadeiras."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual das seguintes declarações é verdadeira sobre adaptar modelos de desenvolvimento de software?",
+        "options": {
+          "a": "Você deve adaptar os modelos para acomodar vários projetos características de produtos.",
+          "b": "Você não deve fazer dessa forma, pois os criadores dos modelos são experts.",
+          "c": "Você não deveria adaptar os modelos baseados nos resultados do teste, para evitar comprometimento da qualidade.",
+          "d": "Você não deveria se preocupar com aqueles modelos, pois eles não afetam o teste"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Qual das seguintes é uma característica do bom teste em qualquer projeto, com qualquer nível de teste, independente do modelo de ciclo de vida?",
+        "options": {
+          "a": "O objetivo primário do teste é encontrar tantos defeitos quanto possíveis.",
+          "b": "Teste de regressão não é afetado pelo modelo de ciclo de vida.",
+          "c": "Testadores devem ser envolvidos na revisão de documentos.",
+          "d": "Testadores não precisam saber sobre detalhes estruturais do produto que estão testando."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Objetivo de aprendizado: termo (Kl)",
+        "options": {
+          "a": "Confirmação de que requisitos especificados foram atendidos.",
+          "b": "Confirmação de que requisitos para um uso ou aplicação pretendida foram atendidos.",
+          "c": "O processo para testar um sistema integrado para verificar se ele atinge os requisitos especificados.",
+          "d": "Parte do gerenciamento da qualidade focado em prover a confiança de que os requisitos de qualidade serão atendidos."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere os seguintes níveis da maturidade CMMI:",
+        "options": {
+          "a": "l, II, III, IV, V.",
+          "b": "I, III, IV, V, II.",
+          "c": "I, IV, III, V, II.",
+          "d": "II, I, III. IV. V."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é endereçada como a seção principal na norma IEEE 12207?",
+        "options": {
+          "a": "Processos primários do ciclo de vida.",
+          "b": "Critérios de suspensão/retomada.",
+          "c": "Revisões técnicas.",
+          "d": "Refinamentos da abordagem."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Testar as interfaces entre componentes é um dos principais objetivos de qual nível de teste?",
+        "options": {
+          "a": "Teste de componente.",
+          "b": "Teste de integração",
+          "c": "Teste de sistema.",
+          "d": "Teste de aceitação"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Teste operacional é ?",
+        "options": {
+          "a": "O processo de teste para determinar a performance de um produto de software.",
+          "b": "Teste conduzido para avaliar um componente ou sistema no seu ambiente operacional.",
+          "c": "O processo de teste para determinar a capacidade de recuperação de um produto de software.",
+          "d": "Teste que executa casos de teste que falharam da última vez em que foram executados."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Considere os seguintes quatro tipos de teste para uma aplicação de comércio eletrônico:",
+        "options": {
+          "a": "I é um teste relacionado à mudança; II é um teste não funcional; III é um teste funcional e IV é um teste estrutural.",
+          "b": "I é um teste estrutural; II é um teste não funcional; III é um teste relacionado à mudança e IV é um teste funcional.",
+          "c": "Todos os quatro são testes funcionais.",
+          "d": "I é um teste não funcional; II é um teste estrutural; III é um teste relacionado à mudança e IV é um teste funcional."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes declarações é verdadeira sobre teste funcional (caixa preta)?",
+        "options": {
+          "a": "Eles nunca são executados por programadores.",
+          "b": "Eles nunca são úteis durante o teste de componente.",
+          "c": "O projeto desses testes é sempre ativamente controlado enquanto são executados.",
+          "d": "Eles podem ser úteis para todos os testadores durante qualquer nível de teste."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Você está testando uma nova aplicação de software para mercado de massa e deseja ter certeza de que seus usuários alvo gostarão dela. Você reúne um grupo variado de usuários em potencial para um estudo e faz com que eles tentem completar tarefas típicas baseado em protótipos de tela. Você observa cuidadosamente a habilidade deles em terminar essas tarefas sem ficarem confusos ou parados. Que tipo de teste você está executando?",
+        "options": {
+          "a": "Teste de stress.",
+          "b": "Teste de usabilidade",
+          "c": "Teste funcional",
+          "d": "Teste de segurança"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Você está testando um sistema bancário baseado no navegador que permitirá aos clientes acessarem suas contas pela Internet. Você recebe um rascunho da especificação técnica de projeto que descreve a arquitetura do sistema ao nível de componentes de software. Assim que você recebe esse documento, você inicia o projeto dos testes para garantir que toda possível interação entre os componentes de hardware e software, ambos system-to-system e end-to-end, é exercitada durante o decorrer dos níveis de teste de integração e de sistema. Qual tipo de teste você está projetando?",
+        "options": {
+          "a": "Teste estrutural",
+          "b": "Teste de performance",
+          "c": "Teste de portabilidade",
+          "d": "Teste funcional"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Quais são os propósitos do teste de confirmação e do teste de regressão?",
+        "options": {
+          "a": "Teste de regressão verifica o sucesso de ações corretivas; teste de confirmação garante que defeitos não foram introduzidos ou não cobertos em áreas inalteradas do software, como resultado de uma mudança.",
+          "b": "Teste de regressão e teste de confirmação são sinônimos; ambos verificam o sucesso de ações corretivas",
+          "c": "Teste de confirmação verifica o sucesso de ações corretivas; teste de regressão garante que defeitos não foram introduzidos ou não cobertos em áreas inalteradas do software, como resultado de uma mudança.",
+          "d": "Teste de regressão e teste de confirmação são sinônimos: ambos garantem que defeitos não foram introduzidos ou não cobertos em áreas inalteradas do software, como resultado de uma mudança."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "De acordo com a norma IS0.9126, qual das seguintes é uma caracteristica de qualidade?",
+        "options": {
+          "a": "Alocação de recursos",
+          "b": "Tempo de resposta",
+          "c": "Segurança",
+          "d": "Eficiência"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "O que é teste de caixa preta?",
+        "options": {
+          "a": "Derivação ou seleção de casos de teste baseados na análise do sistema ou especificação de componentes.",
+          "b": "Derivação ou seleção de casos de teste baseados na análise da estrutura interna do sistema ou componente.",
+          "c": "O processo de identificar diferenças entre os resultados mais produzidos pelo componente ou sistema sob teste e os resultados esperados para o teste.",
+          "d": "Uma técnica de projeto de teste informal onde o testador controla ativamente o projeto dos testes enquanto eles são executados."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Qual tipo de teste é tipicamente mais importante durante o teste de manutenção se comparado com testar uma aplicação totalmente nova?",
+        "options": {
+          "a": "Teste de regressão",
+          "b": "Teste de performance",
+          "c": "Teste funcional",
+          "d": "Teste de segurança"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere as seguintes situações:",
+        "options": {
+          "a": "Qualquer uma dessas situações deve ser gatilho para o teste de manutenção",
+          "b": "Somente II e IV poderiam ser gatilho para o teste de manutenção.",
+          "c": "Somente I, II, e III poderiam ser gatilho para o teste de manutenção.",
+          "d": "Somente I e II poderiam ser gatilho para o teste de manutenção"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Qual das seguintes declarações é verdadeira?",
+        "options": {
+          "a": "Durante o teste de manutenção, a análise de impacto nos ajuda a decidir quanto teste de regressão deve ser executado",
+          "b": "Durante o teste de manutenção, a análise de impacto nos ajuda a decidir quanto teste de confirmação deve ser executado",
+          "c": "Durante novo desenvolvimento e teste de manutenção, a análise de impacto nos ajuda a decidir quanto teste de confirmação deve ser executado",
+          "d": "Análise de impacto não afeta o teste de regressão"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "O que é teste de manutenção?",
+        "options": {
+          "a": "Testar as mudanças em um sistema operacional ou o impacto de um ambiente alterado num sistema operacional.",
+          "b": "Teste de um programa previamente testado seguindo as modificações para garantir que defeitos não foram introduzidos ou descobertos em áreas não alteradas do software",
+          "c": "Teste que executa casos de teste que falharam da ultima vez em que foram executados, para verificar o sucesso de ações corretivas",
+          "d": "Teste baseado na análise da especificação da funcionalidade de um componente ou sistema"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Em qual modelo de ciclo de vida o nível do teste de integração é mais provável de ocorrer concorrentemente durante uma porção significativa do nível de teste do sistema?",
+        "options": {
+          "a": "lterativo",
+          "b": "Modelo V",
+          "c": "Regressão",
+          "d": "Performance"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere os seguintes produtos do trabalho de software:",
+        "options": {
+          "a": "Todos esses produtos de trabalho podem ser revisados",
+          "b": "De todos os produtos de trabalho cm um projeto de software, somente esses podem ser revisados",
+          "c": "Somente II. IV, e V podem ser revisados",
+          "d": "Somente I e III podem ser revisados"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Você esta trabalhando como testador num projeto grande. Você é convidado para participar de uma reunião de revisão de especificação de requisitos como representante do time de teste. Qual razão pessoal poderia convencer você a participar dessa reunião, ou, perguntando a questão de outra forma, que benefícios das revisões afetam o teste mais diretamente e imediatamente?",
+        "options": {
+          "a": "O baixo número de bugs entregue ao cliente após o lançamento.",
+          "b": "O baixo número de bugs entregue aos testadores durante a execução do teste.",
+          "c": "A conclusão mais rápida do projeto",
+          "d": "O custo reduzido para suportar o produto"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Você instalou o software sob teste no seu computador. Você esta executando o software e passando através das telas para rever cada prompt, incluindo mensagens de erro, verificando a sua exatidão.",
+        "options": {
+          "a": "Exploratória",
+          "b": "Relacionada a mudança",
+          "c": "Estática",
+          "d": "Dinâmica"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "O que é uma revisão?",
+        "options": {
+          "a": "Uma avaliação do status do produto ou projeto para apurar discrepâncias dos resultados planejados e recomendar melhorias",
+          "b": "Teste de um componente ou sistema no nível de especificação ou implementação sem a execução daquele software",
+          "c": "Teste usando um modelo de operação de  sistema e sua probabilidade de uso típico",
+          "d": "Uma apresentação passo a passo pelo autor de um documento"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Em uma revisão, qual é o nome do papel desempenhado por indivíduos com conhecimento técnico ou de negocio especifico que identificam e descrevem bugs no produto sob revisão?",
+        "options": {
+          "a": "Gerente",
+          "b": "Revisor",
+          "c": "Moderador",
+          "d": "Autor"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é a diferença principal entre um walkthrough e uma inspeção?",
+        "options": {
+          "a": "Em uma inspeção, o autor faz uma apresentação passo a passo do documento e lidera a reunião de revisão",
+          "b": "Não há diferença: os termos são sinônimos",
+          "c": "Em um walkthrough. o autor faz uma apresentação passo a passo do documento c lidera a reunião de revisão",
+          "d": "Um walkthrough é uma forma de programação por pares, enquanto uma inspeção pode ser aplicada a qualquer produto de trabalho"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "A fim de ter revisões de sucesso, é critico que as pessoas estejam motivadas a encontrar defeitos no produto de trabalho sob revisão. Por que?",
+        "options": {
+          "a": "Experiências negativas nas revisões motivarão os autores a cometer menos erros no futuro",
+          "b": "Métricas das revisões deveriam ser utilizadas pelos gerentes para avaliar a performance do empregado",
+          "c": "Desde que algum numero de defeitos esta certamente presente, é melhor e mais barato encontrá-los mais cedo numa revisão",
+          "d": "Encontrar defeitos no trabalho de cada um ajuda a criar um ambiente de trabalho humilde e sem ego"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "O que é uma revisão por pares?",
+        "options": {
+          "a": "Uma revisão de um produto de trabalho de software por colegas 'ar do criador do produto com o objetivo de identificar defeitos e melhorias",
+          "b": "Um exame formal, visual dos documentos para detectar defeitos, baseado num procedimento documentado",
+          "c": "Uma apresentação passo a passo pelo autor de um documento para obter informação e estabelecer um entendimento comum do seu conteúdo",
+          "d": "Uma avaliação sistemática de aquisição do software, fornecimento, desenvolvimento, operação, ou manutenção do processo"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Qual norma que é referenciada no plano de estudos ISTQB Foundation 2005 que trata das revisões de gerenciamento, revisões técnicas, walkthroughs, inspeções e auditorias?",
+        "options": {
+          "a": "IEEE 829",
+          "b": "CMMI",
+          "c": "ISO 9126",
+          "d": "IEEE 1028"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual é a diferença chave entre analise estática e teste dinâmico?",
+        "options": {
+          "a": "Analise estática não envolve execução de código, enquanto que o teste dinâmico sim",
+          "b": "Teste dinâmico não envolve execução de código, enquanto que analise estática sim",
+          "c": "Não há diferença, os termos são sinônimos",
+          "d": "Teste dinâmico encontra defeitos, enquanto que analise estática encontra falhas"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Qual dos seguintes é um defeito típico identificado pela analise estática?",
+        "options": {
+          "a": "Lançar uma exceção não tratada",
+          "b": "Travamento da aplicação",
+          "c": "Referenciar uma variável com um valor indefinido",
+          "d": "Baixa complexidade do código fonte"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Qual é a diferença chave entre analise estática e teste dinâmico?",
+        "options": {
+          "a": "Analise estática não envolve execução de código, enquanto que o teste dinâmico sim",
+          "b": "Teste dinâmico não envolve execução de código, enquanto que analise estática sim",
+          "c": "Não há diferença, os termos são sinônimos",
+          "d": "Teste dinâmico encontra defeitos, enquanto que analise estática encontra falhas"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Qual dos seguintes é um defeito típico identificado pela analise estática?",
+        "options": {
+          "a": "Lançar uma exceção não tratada",
+          "b": "Travamento da aplicação",
+          "c": "Referenciar uma variável com um valor indefinido",
+          "d": "Baixa complexidade do código fonte"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Considere o seguinte:",
+        "options": {
+          "a": "Todos são benefícios típicos da analise estática do código",
+          "b": "I, III e IV são benefícios típicos da analise estática do código.",
+          "c": "I, II e IV são benefícios típicos da analise estática do código.",
+          "d": "II e V são benefícios típicos da analise estática do codigo."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é um típico defeito de código que uma ferramenta de analise estática poderia encontrar?",
+        "options": {
+          "a": "Uma vulnerabilidade de segurança relacionada a estouro de buffer",
+          "b": "Problema da interface com usuário em relação ao esquema de cores",
+          "c": "Falta de código para um caso de uso chave",
+          "d": "Possibilidade de iniciar uma tarefa que exigiria gasto de esforço"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "O que é complexidade?",
+        "options": {
+          "a": "O numero de caminhos independentes através de um programa",
+          "b": "A porcentagem de defeitos detectados antes do lançamento",
+          "c": "O custo total do projeto dividido pelo numero de linhas de codigo novas e alteradas.",
+          "d": "O grau de dificuldade de entendimento, manutenção e verificação de um projeto ou estrutura interna de um componente ou sistema"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual das seguintes poderia ser uma diferença chave entre uma revisão por pares do código e a analise estática do código utilizando uma ferramenta?",
+        "options": {
+          "a": "Analise estática pode ser feita pelo autor sozinho",
+          "b": "Revisões por pares encontram defeitos enquanto analise estática encontra falhas",
+          "c": "Revisões por pares encontram falhas enquanto analise estática encontra defeitos",
+          "d": "Revisões por pares não podem encontrar requisitos faltantes enquanto que analise estática pode"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere os seguintes produtos do trabalho de teste e seus propósitos:",
+        "options": {
+          "a": "I vai com IV; II vai com V; III vai com VI.",
+          "b": "I vai com VI e V; II ou III pode ir com IV.",
+          "c": "I vai com VI; II vai com V; III vai com IV.",
+          "d": "I vai com VI; II vai com IV; III vai com V."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Você está testando um sistema de comércio eletrônico.",
+        "options": {
+          "a": "I está relacionada com as condições de teste; II é parte do caso de teste: III é parte do procedimento de teste.",
+          "b": "III é relacionada com condições de teste: I é parte do caso de teste: I é parte do procedimento de teste.",
+          "c": "I. II. e III pertencem à especificação de projeto de leste.",
+          "d": "I, II. e III pertencem ao plano de teste."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere a seguinte parte de um caso de teste:",
+        "options": {
+          "a": "Resultados esperados",
+          "b": "Clara rastreabilidade aos requisitos",
+          "c": "Pré-condições de execução",
+          "d": "Pós-condições de execução"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Objetivo de aprendizado: Escrever casos de teste: mostrando clara rastreabilidade aos requisitos; contendo um resultado esperado. (K3)",
+        "options": {
+          "a": "Resultados esperados",
+          "b": "Clara rastreabilidade aos requisitos",
+          "c": "Pré-condições de execução",
+          "d": "Pós-condições de execução"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Um analista de negocio trabalhando no papel de testador escreveu a seguinte parte de um procedimento de teste:",
+        "options": {
+          "a": "Todas são suposições necessárias sobre as pessoas que executarão o teste.",
+          "b": "I, II e III são suposições necessárias sobre as pessoas que executarão o teste, mas IV e V não são necessarias.",
+          "c": "Todas são suposições não necessárias sobre as pessoas que executarão o teste, pois é um teste detalhado.",
+          "d": "I, II e IV são suposições necessárias sobre as pessoas que executarão o teste, mas o III e o IV não são necessárias."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Considere a seguinte lista de casos de teste, prioridades (quanto menor o número, maior a prioridade), e dependências:",
+        "options": {
+          "a": "01.001, 01.002, 01.001, 01.002, 01.003, 01.004, 01.005",
+          "b": "01.002, 01.001, 01.004, 01.005, 01.002, 01.001, 01.003",
+          "c": "01.001, 01.002, 01.004, 01.005, 01.001, 01.002, 01.003",
+          "d": "01.001, 01.002, 01.003, 01.001, 01.002, 01.004, 01.005"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "O que é rastreabilidade?",
+        "options": {
+          "a": "A capacidade do produto de software de permitir software modificado ser testado",
+          "b": "A habilidade de identificar itens relacionados na documentação e no software, como requisitos associados a testes",
+          "c": "Uma abordagem para teste de integração onde o componente no topo da hierarquia de componentes é testado primeiro",
+          "d": "O grau no qual um requisito é declarado de forma a permitir o estabelecimento de projetos de teste"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é a seção principal no modelo de especificação de projeto de teste da EEEE 829?",
+        "options": {
+          "a": "Refinamentos na abordagem",
+          "b": "Especificações de saída",
+          "c": "Especificações de entrada",
+          "d": "Características que não serão testadas"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Qual das seguintes é a seção principal no modelo de especificação de caso de teste da IEEE 829?",
+        "options": {
+          "a": "Passos do procedimento",
+          "b": "Necessidades ambientais",
+          "c": "Critérios de sucesso/falha nas características",
+          "d": "Riscos e contingência"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Objetivo de aprendizado: Norma IEEE 829",
+        "options": {
+          "a": "Itens de teste",
+          "b": "Propósito",
+          "c": "Identificação do teste",
+          "d": "Critérios de suspensão/retorno"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é uma razão de porque abordagens de teste baseadas na estrutura são úteis?",
+        "options": {
+          "a": "Abordagens de teste baseadas na estrutura encontram defeitos ao invés de falhas.",
+          "b": "Abordagens baseadas na estrutura não requerem ferramentas.",
+          "c": "A extensão da cobertura do software pode ser medida para casos de teste existentes, e outros casos de teste podem ser sistematicamente derivados para aumentar a cobertura.",
+          "d": "Modelos da especificação são usados para sistematicamente derivar casos de testes."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Você está desenvolvendo testes analisando um conjunto de casos de uso preparados pelos analistas de negócios. Que tipo de abordagem de teste você está usando?",
+        "options": {
+          "a": "Baseada na estrutura",
+          "b": "Baseada na experiência",
+          "c": "Ad hoc",
+          "d": "Baseada na especificação"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "O que é técnica de projeto de teste caixa preta?",
+        "options": {
+          "a": "Um procedimento para derivar e/ou selecionar casos de teste baseados na análise da especificação",
+          "b": "Um procedimento para derivar e/ou selecionar casos de teste baseados na análise da estrutura interna",
+          "c": "Um procedimento informal onde o testador controla ativamente o projeto dos testes enquanto os testes são executados",
+          "d": "Um procedimento para testar todas as combinações de valores de entrada e pré-condições"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Um campo aceita como entrada um inteiro entre 1 e 99 representando a de um item a ser comprado. Considere os seguintes números:",
+        "options": {
+          "a": "II, IV, e VII são valores limite, enquanto que I, III, V, e VI são membros das partições de equivalência inválido-muito baixo, válido, e inválido-muito alto.",
+          "b": "I, III, V, e VI são valores limite, enquanto que II, IV e VII são membros das partições de equivalência inválido-muito baixo,, válido, e inválido-muito alto.",
+          "c": "Todos os sete valores são valores limite e membros de uma das três partições de equivalência",
+          "d": "Somente I, III, V, e VI são membros de uma das três partições de equivalência"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Você está testando um sistema de comércio eletrônico. Para pagar uma compra, o sistema aceita quatro tipos diferentes de cartões de crédito, cada um dos quais tem suas próprias regras para números válidos e inválidos dos cartões. Uma parte da tabela de decisão para tratamento das ordens é a seguinte:",
+        "options": {
+          "a": "12",
+          "b": "8",
+          "c": "9",
+          "d": "3"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Um caixa eletrônico (ATM) tem o seguinte diagrama de transição de estado para retiradas: FALTOU A FIGURA",
+        "options": {
+          "a": "1",
+          "b": "3",
+          "c": "5",
+          "d": "Infinitos"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual é a regra da cobertura mínima para a tabela de decisão?",
+        "options": {
+          "a": "Cobre todas as combinações de condições",
+          "b": "Cobre cada ação possível",
+          "c": "Cobre cada coluna na tabela",
+          "d": "Cobre cada condição verdadeira e falsa"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Qual é um benefício típico do teste de caso de uso?",
+        "options": {
+          "a": "Encontrar defeitos em cada partição de equivalência",
+          "b": "Encontrar defeitos em cada valor limite",
+          "c": "Encontrar defeitos em transições possíveis de estados",
+          "d": "Encontrar defeitos nos fluxos de processo durante o uso real"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "O que é valor limite?",
+        "options": {
+          "a": "Um valor de entrada ou valor de saída que está na margem de uma partição de equivalência ou na menor distancia incremental em cada lado da margem",
+          "b": "Uma tabela que mostra combinações de entradas e/ou estímulos com suas saídas e/ou ações associadas",
+          "c": "Um diagrama que descreve os estados que um componente ou sistema pode assumir, e mostra os eventos ou circunstâncias que causam e/ou resultam de uma mudança de um estado para outro",
+          "d": "Uma parte de um domínio de entrada ou saída para a qual o comportamento de um componente ou sistema é assumido a ser o mesmo"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Você é o responsável pelo teste de componente de novas funções sendo adicionadas ao sistema. Você quer aumentar seus testes baseados na especificação para essas funções com testes baseados na estrutura para os componentes assim que são escritos. Qual das seguintes formas de medir a cobertura estrutural parece ser mais aplicável neste nível?",
+        "options": {
+          "a": "Cobertura de declaração e decisão",
+          "b": "Cobertura de árvore de chamada",
+          "c": "Estrutura do menu",
+          "d": "Cobertura estrutural não é usada no nível componente"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Ao testar uma aplicação financeira, você alcançou cobertura completa dos testes baseados na especificação em relação a regras para cobertura das partições de equivalência, valores limite, tabelas de decisão, diagramas de transição de estados, e casos de uso. Você usa uma ferramenta de cobertura de código para medir a cobertura de código de testes baseados na especificação. Você descobre que 30% das decisões são cobertas pelos seus testes existentes. Baseado na cobertura de código, que decisão você deveria tomar?",
+        "options": {
+          "a": "Você adiciona testes adicionais para alcançar 100% de cobertura das declarações, porque isso também renderá 100% cobertura de decisões",
+          "b": "Você decide que a ferramenta calculou mal a cobertura de decisão e relata um defeito ao vendedor da ferramenta",
+          "c": "Você decide que o código não coberto não é atingível e pede aos desenvolvedores para removê-lo",
+          "d": "Você adiciona testes adicionais para cobrir decisões importantes que não eram cobertas pelos seus testes baseados na especificação"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Considere a seguinte função:",
+        "options": {
+          "a": "0,1; 1,1; 2,2.",
+          "b": "-1,-1; 1,1; 5,120.",
+          "c": "-1,-1; 0,1; 1.1; 3.6.",
+          "d": "-1, -1; 0,1; 4,12."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Considere a seguinte função:",
+        "options": {
+          "a": "100.0, 5.0. 0,42.",
+          "b": "100.0, 5.0, 0.42; -50.0, 1.25, 0.0.",
+          "c": "100.0, 5.0, 0.42; 0.0, 2.5, 0.0; -50.0, 1.25, 0.0.",
+          "d": "100.0, 5.0, 0.42; 0.01, 25.0, 0.0; 0.0, 2.5, 0.0; -0.01, 10.0, 0.0;  -50.0,1.25,0.0."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "O que é cobertura de decisão?",
+        "options": {
+          "a": "Uma tabela que mostra combinações de entradas com suas saídas associadas",
+          "b": "Um ponto de programa no qual o fluxo de controle tem duas ou mais rotas alternativas",
+          "c": "A porcentagem de comandos executáveis que foram exercitados por uma suíte de teste",
+          "d": "A porcentagem de resultados de decisão que foram exercitadas por uma suite de teste"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual das seguintes é uma boa razão para usar técnicas baseadas na experiência para o teste?",
+        "options": {
+          "a": "Porque essas técnicas são amplamente praticadas",
+          "b": "Porque você pode pular análise de teste destrutivo e passos de projeto que não têm qualquer benefício",
+          "c": "Porque clientes e usuários sempre preferem ter mais rápido software funcionando do que software de alta qualidade que demore mais para ser entregue",
+          "d": "Porque você pode identificar testes especiais que não são facilmente capturados por técnicas formais"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Em qual das seguintes situações você deve contar de forma mais pesada com técnicas baseadas na experiência do que com técnicas baseadas na especificação?",
+        "options": {
+          "a": "Você recebeu requisitos e especificações de projeto e tempo adequado para preparar",
+          "b": "Você não tem qualquer documentação escrita sobre como o produto deveria funcionar",
+          "c": "Você esta liderando um time de pessoas novas no domínio do negócio e na tecnologia do projeto",
+          "d": "Você foi avisado para prevenir defeitos através de um honesto planejamento, análise e projeto de teste"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "O que é teste exploratório?",
+        "options": {
+          "a": "Uma abordagem de teste na qual a suíte de teste engloba todas as combinações de valores de entrada e pré-condições",
+          "b": "Uma técnica informal de projeto de teste onde o testador controla ativamente o projeto dos testes enquanto os testes são executados e usa a informação obtida enquanto está testando para projetar novos e melhores testes",
+          "c": "Teste executado informalmente; não ocorre nenhuma preparação formal de teste, não é usada qualquer técnica reconhecida de projeto de teste, não existem resultados esperados e a atividade de execução de teste é aleatória",
+          "d": "Testes operacionais reais ou simulados são executados por usuários/clientes em potencial ou por um time independente de teste na casa do desenvolvedor, mas fora da organização de desenvolvimento"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Você está testando um dispositivo médico controlado por software de segurança crítica que será implantado nos corpos dos pacientes. Falhas do dispositivo, incluindo falhas relacionadas ao software, significam que o paciente pode morrer. Quaisquer anomalias com o  dispositivo requereriam cirurgias invasivas e perigosas para remover e substituir o dispositivo e/ou seu software. Quais são as técnicas de teste apropriadas para usar?",
+        "options": {
+          "a": "Baseada na estrutura e baseada na especificação",
+          "b": "Baseada na estrutura, baseada na especificação, e baseada na experiência",
+          "c": "Todas as técnicas estáticas e dinâmicas disponíveis",
+          "d": "Baseada na experiência"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é uma abordagem baseada na estrutura para o projeto de casos de teste?",
+        "options": {
+          "a": "Diagramas de transição de estado",
+          "b": "Análise do valor limite",
+          "c": "Particionamento de equivalência",
+          "d": "Cobertura de declarações"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual é uma vantagem do uso de testadores independentes?",
+        "options": {
+          "a": "Times independentes de teste são responsáveis por assegurar o término na hora certa do período de execução do teste",
+          "b": "Testadores independentes são freqüentemente mais efetivos na descoberta de defeitos",
+          "c": "Você não precisa de pessoas com conhecimento do domínio técnico ou de negócio num time de teste independente",
+          "d": "Teste independente isenta os desenvolvedores de qualquer responsabilidade pela qualidade"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Você gostaria de configurar um time independente de teste para um projeto futuro, com você no papel de líder. Você sabe que os altos e imprevisíveis custos associados com a necessidade de entregar versões sem falhas em campo são as maiores fontes de preocupação para a companhia. Qual dos seguintes objetivos do teste independente endereça efetivamente esta preocupação e promove sua idéia para a administração?",
+        "options": {
+          "a": "Testadores independentes vêem outros e diferentes defeitos do que os testadores que não são independentes",
+          "b": "Teste independente faz o processo de liberação mais previsível",
+          "c": "Problemas de qualidade no campo podem ser perigosos para a segurança publica",
+          "d": "Testadores independentes terão responsabilidade pelos defeitos"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Você foi designado líder de teste por todo o teste de um projeto futuro. Você está atualmente montando o time de teste para o nível de teste de componente. Das seguintes pessoas, quais seriam melhores qualificados para trabalhar como testadores nesse nível?",
+        "options": {
+          "a": "Analistas de negócio",
+          "b": "Desenvolvedores",
+          "c": "Usuários experientes",
+          "d": "Operadores"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é uma tarefa típica para um líder de teste?",
+        "options": {
+          "a": "Preparar e obter dados de teste",
+          "b": "Criar especificações de teste",
+          "c": "Revisar e contribuir para planos de teste",
+          "d": "Coordenar a estratégia de teste e planejar com gerentes de projeto e outros"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "O que é um gerente de teste?",
+        "options": {
+          "a": "Uma ferramenta que facilita a gravação e acompanhamento do status        dos defeitos",
+          "b": "O indivíduo, que dirige, controla, administra, planeja e regula a avaliação de um objeto de teste.",
+          "c": "Uma ferramenta que prove suporte ao gerenciamento do teste e controla parte do processo de teste",
+          "d": "Um profissional experiente que é envolvido no teste de um componente ou sistema"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "O que cobre um plano mestre de teste?",
+        "options": {
+          "a": "Teste ao nível do teste de sistema",
+          "b": "Teste ao nível do teste de aceitação",
+          "c": "Todo o teste no projeto",
+          "d": "Teste de releases de manutenção"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Você está trabalhando atualmente como um gerente de teste em um projeto. Você está pensando sobre critérios de entrada e saída e o.ambiente de teste, e discutindo opções com o time de projeto. As decisões tomadas sobre esses tópicos pertencem a qual documento?",
+        "options": {
+          "a": "Plano de teste",
+          "b": "Especificação de projeto de teste",
+          "c": "Especificação de procedimento de teste",
+          "d": "Transmissão de item de teste"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere os seguintes fatores:",
+        "options": {
+          "a": "Fatores I, II, e III influenciam o esforço de teste na maioria dos projetos",
+          "b": "Todos esses fatores influenciam o esforço de teste em todos os projetos",
+          "c": "Fatores I, III. e IV influenciam o esforço de teste na maioria dos projetos",
+          "d": "Fatores III. IV. e V influenciam o esforço de teste na maioria dos projetos"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Qual das seguintes declarações é verdadeira?",
+        "options": {
+          "a": "Estimativa de teste pelos donos das tarefas e pessoas experientes é sempre mais exata do que estimativa de teste via métricas.",
+          "b": "Estimativa de teste pelos donos das tarefas e pessoas experientes pode ser usada junto com estimativa de teste via métricas",
+          "c": "Estimativa de teste pelos donos das tarefas e pessoas experientes é sempre menos exata do que estimativa de teste via métricas.",
+          "d": "Estimativa de teste pelos donos das tarefas e pessoas experientes sempre deveria preceder estimativa de teste via métricas."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Você está atualmente selecionando métricas para monitorar o status do caso de teste (passou, falhou, ainda não executado, etc), status de bug (encontrado, corrigido, corrigido confirmado, etc), e status da cobertura do teste (teste planejado, teste executado e passou, teste executado e falhou, etc). Qual tipo específico de planejamento de teste você está fazendo?",
+        "options": {
+          "a": "Planejamento do teste para o projeto",
+          "b": "Planejamento do teste para o nível de teste de sistema",
+          "c": "Planejamento do teste para o teste de performance",
+          "d": "Planejamento do teste para execução do teste"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual das seguintes é uma tarefa específica para a preparação do teste deveria ser endereçada durante o planejamento do teste?",
+        "options": {
+          "a": "Definindo a abordagem completa do teste",
+          "b": "Integrando e coordenando as atividades de leste dentro das atividades do ciclo de vida do software",
+          "c": "Tomando decisões sobre como os resultados serão avaliados e quando parar o teste",
+          "d": "Definindo a quantidade, nível de detalhe, estrutura e modelos para"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Suponha que você encontre o seguinte critério de entrada no plano de teste de aceitação:",
+        "options": {
+          "a": "O sistema provavelmente será pobremente desenvolvido sem esse critério.",
+          "b": "O teste de aceitação será executado por usuários experientes para os quais o tempo tem muito valor e que não deveriam ficar frustrados por ter que testar sistemas incompletos e cheios de bugs",
+          "c": "O objetivo do teste de aceitação é encontrar tantos defeitos quanto possível",
+          "d": "O objetivo do teste de aceitação é prevenir tantos defeitos quanto possível"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "O que é um plano de teste?",
+        "options": {
+          "a": "Uma fonte para determinar resultados esperados para comparar com os resultados atuais do software sob teste",
+          "b": "Um documento especificando a seqüência de ações para a execução de um teste",
+          "c": "Um documento descrevendo o escopo, abordagem, recursos e programação das atividades pretendidas de teste",
+          "d": "Um documento especificando as condições de teste (itens de cobertura) para um item de teste, a detalhada abordagem de teste e identificando os casos de teste de alto nível associados"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Qual das seguintes é uma seção importante no modelo de plano de teste da IEEE 829?",
+        "options": {
+          "a": "Necessidades de pessoal e treinamento",
+          "b": "Passos do procedimento",
+          "c": "Especificações de entrada",
+          "d": "Critérios de sucesso/falha das características"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Quais das seguintes são métricas comuns usadas para monitorar a execução do teste?",
+        "options": {
+          "a": "Porcentagem de testes planejados preparados",
+          "b": "Porcentagem da configuração do ambiente de teste completada",
+          "c": "Porcentagem de cobertura da base de teste pelos testes preparados",
+          "d": "Número cumulativo de defeitos, ambos encontrados e resolvidos"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Você esta trabalhando como gerente de teste responsável pelos testes de integração e sistema em um projeto que esta em cerca da metade do período programado de execução do teste.",
+        "options": {
+          "a": "Muitos testes ainda estão falhando para lançar agora, e há um grande número de testes relacionados a bugs críticos",
+          "b": "Os testes executados não cobrem suficientemente a base de teste, um grande número de arriscados desconhecidos permanece para serem endereçados",
+          "c": "O número de bugs fora de série é maior do que os 500 bugs em campo",
+          "d": "O teste está revelando cerca de 150 bugs por semana pelas últimas cinco semanas, e você espera encontrar mais 750 bugs antes do final do projeto"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Considere o seguinte sumário de seção de um relatório de sumário de teste-da IEEE 829 entregue após o teste de um produto de consumo eletrônico de entretenimento ter sido completado:",
+        "options": {
+          "a": "A cobertura de teste foi insuficiente para suportar uma decisão de lançamento",
+          "b": "Existem muitos bugs para suportar uma decisão de lançamento",
+          "c": "Teste exploratório foi usado para o propósito errado",
+          "d": "Todos os dados disponíveis suportam uma decisão de lançamento"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "O que significa taxa de falha?",
+        "options": {
+          "a": "Desvio do componente ou sistema da sua esperada entrega, serviço ou resultado",
+          "b": "A proporção do número de falhas de uma dada categoria para uma dada unidade de medida",
+          "c": "O número de defeitos identificados em um componente ou sistema dividido pelo tamanho do componente ou sistema",
+          "d": "Regras de decisão usadas para determinar se um item de teste (função) ou característica passou ou falhou em um teste"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é um título de seção do modelo de registro de teste IEEE?",
+        "options": {
+          "a": "Entradas de atividade e evento",
+          "b": "Critérios de sucesso/falha item",
+          "c": "Passos de procedimento",
+          "d": "Especificação de saída"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Você está testando um software de vídeo game que funciona em hardware padrão, comercialmente disponível. O time de desenvolvimento relata que eles não conseguem reproduzir falhas que você está observando no laboratório de teste. Seu projeto não tem uma ferramenta ou processo de gerenciamento de configuração. Qual dos seguintes é um benefício de colocar esse tipo de ferramentas e processos num lugar que poderia ajudar a reduzir a incidência deste tipo de problema?",
+        "options": {
+          "a": "Assegurar que o hardware de teste e o hardware de desenvolvimento são iguais",
+          "b": "Determinar se as falhas são intermitentes quando reportá-las",
+          "c": "Identificar univocamente os itens testados",
+          "d": "Prover rastreabilidade dos testes para os requisitos"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "O que é controle de versão?",
+        "options": {
+          "a": "Um grupo de pessoas responsáveis por avaliar e aprovar ou desaprovar mudanças propostas para itens de configuração, e por assegurar a implementação das mudanças aprovadas",
+          "b": "Um elemento do gerenciamento de configuração, consistindo na avaliação, . coordenação, aprovação ou desaprovação, e implementação de mudanças para itens de configuração",
+          "c": "Uma agregação de hardware, software ou ambos, que é designada para gerenciamento de configuração e tratada como uma única entidade no processo de gerenciamento de configuração",
+          "d": "A composição de um componente ou sistema como definido pelo número, natureza , e interconexões de suas partes constituintes"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é a seção mais importante do relatório de transmissão de item de teste na IEEE 129?",
+        "options": {
+          "a": "Critérios de entrada",
+          "b": "Passos de procedimento",
+          "c": "Condições de teste",
+          "d": "Localização"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Você está trabalhando como gerente de teste no primeiro release de um novo pacote de software de automação de escritório para PC. Você escreveu com sucesso um plano de teste, preparou os seus testes, montou seu time de teste, e configurou seu ambiente de teste. Qual dos seguintes é um risco de projeto que mais provavelmente pode comprometer sua habilidade para realizar seu plano de teste?",
+        "options": {
+          "a": "Bugs que afetam os clientes existentes",
+          "b": "Bugs que afetam a performance do produto",
+          "c": "Bugs que afetam a instabilidade do produto no ambiente de teste",
+          "d": "Indisponibilidade de testadores com conhecimento apropriado"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Considere os seguintes fatores relacionados a riscos de produto:",
+        "options": {
+          "a": "I e III",
+          "b": "I, II, e III",
+          "c": "Todos os cinco fatores",
+          "d": "III, IV, e V"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Você está trabalhando como gerente de teste em um projeto bancário online. Qual dos seguintes é um risco de produto para seu projeto?",
+        "options": {
+          "a": "Seu fornecedor de desenvolvimento terceirizado falha em entregar o software no prazo",
+          "b": "Você não consegue obter suficiente especialização no domínio no seu time de teste",
+          "c": "As descobertas do time de teste são ignoradas pelo time de projeto",
+          "d": "O software não rastreia apropriadamente retiradas das contas dos clientes do banco."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual dos seguintes é um típico risco de projeto?",
+        "options": {
+          "a": "Falha de um fornecedor em entregar hardware de teste no prazo.",
+          "b": "Problemas de performance no software sob teste",
+          "c": "Problemas de usabilidade no software sob teste",
+          "d": "Problemas potencias criticamente relacionado a segurança."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Você está trabalhando como gerente de teste em um novo projeto de software bancário e de desenvolvimento interno. Durante o período de planejamento de teste, você junta os stakeholders chave para identificar e priorizar os riscos chave de um produto para o software. Durante o período de preparação do teste, o que esta análise de risco do produto lhe permitirá fazer?",
+        "options": {
+          "a": "Determinar a extensão do teste para cada risco",
+          "b": "Antecipar questões de comunicação dos testadores",
+          "c": "Relatar os resultados de execução do teste em termos dos riscos que foram cobertos pelos testes",
+          "d": "Preparar um relatório sumário do teste descrevendo os riscos que. não foram endereçados durante o teste"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "O que é um risco de produto?",
+        "options": {
+          "a": "Um risco relacionado ao gerenciamento e controle do projeto.",
+          "b": "Um risco diretamente relacionado ao objeto de teste",
+          "c": "Um fator que poderia resultar em futuras conseqüências negativas",
+          "d": "Probabilidade e impacto"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual dos seguintes pertence à seção de descrição de incidentes para qualquer relatório de incidentes da norma IEEE 829?",
+        "options": {
+          "a": "Os critérios de sucesso/falha item",
+          "b": "Os resultados esperados e o resultado atual de um teste",
+          "c": "Todos os riscos de projeto",
+          "d": "O grau ao qual um sistema ou componente executa suas funções designadas dentro de constantes dados relacionados a tempo de processamento e taxa de transferência"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "O seguinte sumário encontra-se em um relatório de bug preenchido para um sistema de comércio eletrônico:",
+        "options": {
+          "a": "Prover os desenvolvedores com percepção se o problema é reproduzível",
+          "b": "Prover testadores com percepção de quantos testes são bloqueados pela falha",
+          "c": "Prover gerência com percepção da importância de corrigir o problema",
+          "d": "Prover o lime de projeto com percepção se o problema está atualmente resolvido"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "O que é um incidente?",
+        "options": {
+          "a": "Uma falha em um componente ou sistema que pode causar a esse componente ou sistema não executar sua função requerida",
+          "b": "Qualquer evento que ocorra e que requer investigação",
+          "c": "Desvio do componente ou sistema da sua entrega, serviço ou resultado esperado",
+          "d": "A manifestação física ou funcional de uma falha"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes é a seção importante no modelo de relatório de incidente da IEEE 829?",
+        "options": {
+          "a": "Critérios de teste",
+          "b": "Avaliação compreensiva",
+          "c": "Localizaçáo",
+          "d": "Impacto"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Você está trabalhando como gerente de teste em um projeto bancário online. Você recebeu uma extensiva especificação de requisitos que endereça todas as características importantes de qualidade. Você executou testes que cobrem todos os riscos significantes identificados durante o processo de analise de risco de produto. Você também utilizou testadores experimentados e usuários experientes para executarem testes exploratórios através de toda a funcionalidade, segurança, performance e características de usabilidade do produto. Você executa um relatório que mostra que os testes exploratórios de performance identificaram muitas falhas a mais do que foram antecipadas durante a analise de risco do produto.",
+        "options": {
+          "a": "Falhas de performance não são de alto impacto",
+          "b": "A analise de risco do produto subestimou a probabilidade de falhas de performance.",
+          "c": "Os testadores exploratórios estavam confusos sobre a importância relativa da segurança comparada com a performance",
+          "d": "Existem poucos riscos remanescentes no sistema relacionados a usabilidade"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Você está trabalhando como gerente de teste em um grande projeto. Você precisa de uma ferramenta que suportará rastreabilidade dos testes, resultados do teste, e bugs para a base de teste. Que tipo de ferramenta você precisa?",
+        "options": {
+          "a": "Ferramenta de análise estática",
+          "b": "Ferramenta de gerenciamento de teste",
+          "c": "Ferramenta de segurança",
+          "d": "Ferramenta de medição de cobertura"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Qual das seguintes ferramentas de teste provavelmente e a que mais interessa aos desenvolvedores.",
+        "options": {
+          "a": "Test harness de unidade",
+          "b": "Ferramenta de gerenciamento de teste",
+          "c": "Planilha",
+          "d": "Ferramenta de rastreio de bug."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "O que é efeito sonda?",
+        "options": {
+          "a": "Testes dirigidos para mostrar que um componente ou sistema não funciona",
+          "b": "Condições ambientais e de estado que devem ser preenchidas depois da execução de um teste ou procedimento de teste",
+          "c": "Alguma coisa que acontece com software de satélite",
+          "d": "O efeito em um componente ou sistema quando ele está sendo medido"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Você está trabalhando em um projeto que está efetuando um release de manutenção de um sistema bancário grande e de alto risco. As pessoas estão muito preocupadas sobre a regressão da funcionalidade existente, e querem que o conjunto existente de 12.254 casos de teste seja executado novamente contra cada release de teste. Qual dos seguintes é um benefício da automação do teste para este projeto e um que provavelmente atrairá o time de projeto?",
+        "options": {
+          "a": "Redução do trabalho repetitivo",
+          "b": "Facilidade de preencher relatórios de bugs",
+          "c": "Baixo custo para automatizar todos os testes",
+          "d": "Oportunidade para aprender novo conhecimento"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Considere o seguinte:",
+        "options": {
+          "a": "I e III são técnicas reconhecidas para um efetivo e eficiente teste automatizado",
+          "b": "I, II, III, IV e V são técnicas reconhecidas para um efetivo e eficiente teste automatizado",
+          "c": "II e IV são técnicas reconhecidas para um efetivo e eficiente teste automatizado",
+          "d": "Nenhuma elas são técnicas reconhecidas para um efetivo e eficiente teste automatizado"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "O que é linguagem de escrita de roteiro?",
+        "options": {
+          "a": "O processo de teste para determinar a portabilidade de um produto de software",
+          "b": "Um dispositivo, programa de computador ou sistema usado durante o teste, que se comporta ou opera como um dado sistema",
+          "c": "Um documento especificando uma seqüência de ações para a execução do teste",
+          "d": "Uma linguagem de programação na qual são escritos roteiros executáveis de teste"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Qual dos seguintes é um princípio importante que auxiliará na introdução de uma ferramenta de teste?",
+        "options": {
+          "a": "Avaliar o fornecedor",
+          "b": "Confiar no fornecedor",
+          "c": "Automatizar todos os testes imediatamente",
+          "d": "Eliminar os testes que não são automatizáveis"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Qual dos seguintes é um objetivo para um piloto de automação do teste?",
+        "options": {
+          "a": "Automação completa de todos os testes",
+          "b": "Estimar a situação de custo/benefício para a automação",
+          "c": "Determinar probabilidade e impacto de riscos de produto",
+          "d": "Use terceirizados de baixo custo e curto prazo para todas as tarefas de automação"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Os clientes estão reclamando que o site Web da sua companhia é muito lento. Você foi solicitado a gerenciar a parte de teste de um projeto que está encarregado de reduzir os incidentes desse tipo de problema para a parte de comércio eletrônico (loja on-line) do site da sua companhia. Então, seu trabalho nesse projeto provavelmente incluirá o que?",
+        "options": {
+          "a": "Uma apresentação completa de uma ferramenta de teste de regressão",
+          "b": "Um projeto piloto com uma ferramenta de análise dinâmica",
+          "c": "Introdução na companhia toda de uma nova ferramenta de gerenciamento de configuração",
+          "d": "Um projeto piloto com uma ferramenta de teste de performance"
+        },
+        "correct_answer": "d"
+      }
+    
+  ]
+  
+  
