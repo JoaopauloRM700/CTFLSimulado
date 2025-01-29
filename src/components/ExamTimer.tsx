@@ -1,22 +1,26 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Clock } from 'lucide-react';
-import { useExamStore } from '../store/examStore';
 
-export const ExamTimer: React.FC = () => {
-  const { timeRemaining, updateTime, endExam, isExamActive } = useExamStore();
+type ExamTimerProps = {
+  duration: number;
+  onTimeUp: () => void;
+};
+
+const ExamTimer: React.FC<ExamTimerProps> = ({ duration, onTimeUp }) => {
+  const [timeRemaining, setTimeRemaining] = useState(duration);
 
   useEffect(() => {
-    if (!isExamActive) return;
+    if (timeRemaining <= 0) {
+      onTimeUp();
+      return;
+    }
 
     const timer = setInterval(() => {
-      updateTime();
-      if (timeRemaining <= 1) {
-        endExam();
-      }
+      setTimeRemaining((prev) => prev - 1);
     }, 1000);
 
     return () => clearInterval(timer);
-  }, [timeRemaining, isExamActive]);
+  }, [timeRemaining, onTimeUp]);
 
   const minutes = Math.floor(timeRemaining / 60);
   const seconds = timeRemaining % 60;
@@ -30,3 +34,5 @@ export const ExamTimer: React.FC = () => {
     </div>
   );
 };
+
+export default ExamTimer;

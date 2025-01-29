@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./components/Home";
-import Exam from "./components/Exam";
+import Exam from "./components/Exam"; // (Criamos esse arquivo depois)
+import Home from "./components/Home"; // (Criamos esse arquivo depois)
+import App from "./App";
 
-const App: React.FC = () => {
+const AppRoutes: React.FC = () => {
   return (
     <Router>
       <Routes>
@@ -14,4 +15,4 @@ const App: React.FC = () => {
   );
 };
 
-export default App;
+export default AppRoutes;
