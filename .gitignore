@@ -7,18 +7,50 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependências do Node.js
+node_modules/
+package-lock.json
+yarn.lock
+.pnpm-debug.log
 
-# Editor directories and files
-.vscode/*
+# Build / Output
+dist/
+dist-ssr/
+*.local
+.vite/
+.cache/
+out/
+coverage/
+.next/
+.nuxt/
+
+# Configuração de Ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Arquivos do Editor
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Arquivos do Docker
+.dockerignore
+docker-compose.yml
+
+# Ignorar arquivos do sistema operacional
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos do GitHub Actions
+.github/workflows/*.log
+
