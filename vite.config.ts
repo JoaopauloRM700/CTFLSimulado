@@ -11,6 +11,14 @@ export default defineConfig({
     namedExports: true,
     stringify: false
   },
-  base: "/CTFLSimulado/", // Substitua "CTFLSimulado" pelo nome exato do seu repositório
+  base: "/", // Remova qualquer outro caminho que esteja aqui
+  server: {
+    host: "0.0.0.0", // Permite acesso externo ao container
+    port: 4173,
+  },
+  preview: {
+    host: "0.0.0.0",
+    port: 4173,
+  },
 });
 
