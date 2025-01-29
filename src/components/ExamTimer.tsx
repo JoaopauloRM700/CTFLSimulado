@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { Clock } from 'lucide-react';
+import React, { useEffect, useState } from "react";
+import { Clock } from "lucide-react";
 
 type ExamTimerProps = {
-  duration: number;
-  onTimeUp: () => void;
+  duration: number; // Tempo total em segundos
+  onTimeUp: () => void; // Callback quando o tempo acabar
 };
 
 const ExamTimer: React.FC<ExamTimerProps> = ({ duration, onTimeUp }) => {
@@ -11,7 +11,7 @@ const ExamTimer: React.FC<ExamTimerProps> = ({ duration, onTimeUp }) => {
 
   useEffect(() => {
     if (timeRemaining <= 0) {
-      onTimeUp();
+      onTimeUp(); // Aciona a finalização do exame
       return;
     }
 
@@ -29,7 +29,7 @@ const ExamTimer: React.FC<ExamTimerProps> = ({ duration, onTimeUp }) => {
     <div className="flex items-center gap-2 text-lg font-semibold">
       <Clock className="w-5 h-5" />
       <span>
-        {String(minutes).padStart(2, '0')}:{String(seconds).padStart(2, '0')}
+        {String(minutes).padStart(2, "0")}:{String(seconds).padStart(2, "0")}
       </span>
     </div>
   );

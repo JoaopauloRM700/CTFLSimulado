@@ -14,7 +14,7 @@ const Exam: React.FC = () => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [showResult, setShowResult] = useState(false);
-  const [restartTimer, setRestartTimer] = useState(false);
+  const [restartExamKey, setRestartExamKey] = useState(0); // Chave para reiniciar o timer
 
   useEffect(() => {
     setExamQuestions(getRandomQuestions(questions, EXAM_CONFIG.totalQuestions));
@@ -38,7 +38,7 @@ const Exam: React.FC = () => {
   };
 
   const handleTimeUp = () => {
-    setShowResult(true);
+    setShowResult(true); // Finaliza o exame quando o tempo acabar
   };
 
   const restartExam = () => {
@@ -46,7 +46,7 @@ const Exam: React.FC = () => {
     setCurrentQuestionIndex(0);
     setScore(0);
     setShowResult(false);
-    setRestartTimer((prev) => !prev); // Reinicia o temporizador
+    setRestartExamKey((prev) => prev + 1); // Força a reinicialização do temporizador
   };
 
   return (
@@ -78,7 +78,7 @@ const Exam: React.FC = () => {
         </div>
       ) : (
         <>
-          <ExamTimer key={restartTimer.toString()} duration={EXAM_CONFIG.timeLimit} onTimeUp={handleTimeUp} />
+          <ExamTimer key={restartExamKey} duration={3600} onTimeUp={handleTimeUp} />
           {examQuestions.length > 0 && (
             <QuestionCard
               question={examQuestions[currentQuestionIndex]}
