@@ -11,5 +11,6 @@ export default defineConfig({
     namedExports: true,
     stringify: false
   },
+  base: "/CTFLSimulado/", // Substitua "CTFLSimulado" pelo nome exato do seu repositório
 });
 
