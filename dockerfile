@@ -1,21 +1,19 @@
-# Usa a imagem oficial do Node.js
-FROM node:18-alpine
+# Melhorias:
+# 1. Multi-stage build
+# 2. Otimização para produção
+# 3. Segurança
 
-# Define o diretório de trabalho dentro do container
+# Build stage
+FROM node:18-alpine AS builder
 WORKDIR /app
-
-# Copia os arquivos do projeto
-COPY package.json package-lock.json ./
-RUN npm install
-
-# Copia todo o código do projeto
+COPY package*.json ./
+RUN npm ci
 COPY . .
-
-# Builda o projeto para produção
 RUN npm run build
 
-# Expõe a porta 4173 (Vite Preview)
-EXPOSE 4173
-
-# Comando para rodar o servidor
-CMD ["npm", "run", "preview"]
+# Production stage
+FROM nginx:1.23-alpine
+COPY --from=builder /app/dist /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
