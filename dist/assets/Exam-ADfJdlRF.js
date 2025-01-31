@@ -17,4 +17,3 @@ import{r as I,j}from"./index-7nmBdA9O.js";const Zo=I.createContext({});function 
                   ${m[b]==="answered"?"answered":""} 
                   ${b===s?"current":""}
                 `,children:b+1},b))}),j.jsx("div",{className:"question-card",children:t.length>0&&j.jsx(Ju,{question:t[s],onAnswer:g})})]})})};export{wm as default};
-//# sourceMappingURL=Exam-ADfJdlRF.js.map

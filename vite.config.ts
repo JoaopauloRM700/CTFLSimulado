@@ -13,6 +13,6 @@ export default defineConfig({
   base: '/CTFLSimulado/',
   build: {
     outDir: 'dist',
-    sourcemap: true,
-  },
+    emptyOutDir: true, 
+  }
 });
