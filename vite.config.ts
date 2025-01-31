@@ -10,9 +10,7 @@ export default defineConfig({
       overlay: false
     }
   },
-  base: process.env.NODE_ENV === 'production' 
-    ? '/CTFLSimulado/' 
-    : '/', // Configuração dinâmica,
+  base: '/CTFLSimulado/',
   build: {
     outDir: 'dist',
     emptyOutDir: true, 
