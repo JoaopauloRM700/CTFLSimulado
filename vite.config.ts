@@ -10,7 +10,7 @@ export default defineConfig({
       overlay: false
     }
   },
-  base: process.env.VITE_BASE_PATH || '/', 
+  base: process.env.VITE_BASE_PATH || '/CTFLSimulado', 
   build: {
     outDir: 'dist',
     emptyOutDir: true,

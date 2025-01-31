@@ -14,7 +14,7 @@ const App: React.FC = () => {
       <Router>
         <Suspense fallback={<LoadingSpinner />}>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/CTFLSimulado" element={<Home />} />
             <Route path="/simulado" element={<Exam />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
