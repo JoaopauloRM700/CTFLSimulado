@@ -10,9 +10,9 @@ export default defineConfig({
       overlay: false
     }
   },
-  base: '/',
+  base: process.env.VITE_BASE_PATH || '/', 
   build: {
     outDir: 'dist',
-    emptyOutDir: true, 
+    emptyOutDir: true,
   }
 });
