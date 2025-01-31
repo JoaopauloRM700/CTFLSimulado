@@ -1,19 +1,21 @@
-# Melhorias:
-# 1. Multi-stage build
-# 2. Otimização para produção
-# 3. Segurança
+# Usa a imagem oficial do Node.js
+FROM node:18-alpine 
 
-# Build stage
-FROM node:18-alpine AS builder
+# Define o diretório de trabalho dentro do container
 WORKDIR /app
-COPY package*.json ./
-RUN npm ci
+
+# Copia os arquivos package.json e package-lock.json antes de copiar o restante do código
+COPY package.json package-lock.json ./
+
+# Instala as dependências
+RUN npm install
+
+# Copia o restante do código para o container
 COPY . .
+
+# Compila o projeto para produção
 RUN npm run build
 
-# Production stage
-FROM nginx:1.23-alpine
-COPY --from=builder /app/dist /usr/share/nginx/html
-COPY nginx.conf /etc/nginx/conf.d/default.conf
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+
+# Comando para rodar o servidor Vite na build final
+CMD ["npm", "run", "preview", "--", "--port", "4173", "--host"]

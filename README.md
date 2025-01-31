@@ -66,7 +66,7 @@ npm install
 npm run dev
 ```
 O site estará disponível em:
-➡️ http://localhost:5173
+➡️ http://localhost:3000
 
 ## **🛠️ Tecnologias Utilizadas
 ⚛️ React

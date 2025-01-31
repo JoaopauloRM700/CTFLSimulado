@@ -10,6 +10,7 @@ export default defineConfig({
       overlay: false
     }
   },
+  base: '/CTFLSimulado/',
   build: {
     outDir: 'dist',
     sourcemap: true,
