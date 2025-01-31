@@ -1,0 +1,360 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* =======================
+   Estilização Geral 
+========================= */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* =======================
+   Página Inicial
+========================= */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.home-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #004085;
+    margin-bottom: 15px;
+}
+
+.home-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.home-button:hover {
+    background-color: #0056b3;
+}
+
+/* =======================
+   Temporizador do Simulado
+========================= */
+.timer-container {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.timer-icon {
+    margin-right: 8px;
+}
+
+.timer-critical {
+    color: #dc3545;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
+
+/* =======================
+   Progresso do Simulado
+========================= */
+.progress-bar-container {
+    background-color: #e9ecef;
+    border-radius: 8px;
+    height: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    height: 10px;
+    width: 0%;
+    transition: width 0.5s ease-in-out;
+}
+
+/* =======================
+   Cartão de Pergunta
+========================= */
+.question-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.question-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* =======================
+   Botões de Respostas
+========================= */
+.answer-button {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background-color: #f8f9fa;
+    padding: 12px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.answer-button:hover {
+    background-color: #e2e6ea;
+}
+
+.answer-button.selected {
+    background-color: #007bff;
+    color: white;
+    border-color: #0056b3;
+}
+
+/* =======================
+   Botões de Navegação
+========================= */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #6c757d;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-button:hover {
+    background-color: #5a6268;
+}
+
+.nav-button.next {
+    background-color: #007bff;
+}
+
+.nav-button.next:hover {
+    background-color: #0056b3;
+}
+
+/* =======================
+   Página de Resultado
+========================= */
+.result-container {
+    text-align: center;
+    padding: 40px;
+}
+
+.result-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #004085;
+    margin-bottom: 15px;
+}
+
+.score {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.score.pass {
+    color: #28a745;
+}
+
+.score.fail {
+    color: #dc3545;
+}
+
+/* Botões da tela de resultados */
+.result-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.result-button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.result-button:hover {
+    background-color: #0056b3;
+}
+
+/* =======================
+   Responsividade
+========================= */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .home-title {
+        font-size: 24px;
+    }
+
+    .home-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .question-title {
+        font-size: 18px;
+    }
+
+    .answer-button {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+
+
+/* ================================
+   Melhorias na navegação das questões
+================================= */
+.question-navigation {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 6px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.nav-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #6c757d; /* Cinza (não respondido) */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    /* 🔹 Centraliza o número do botão */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Hover para realçar */
+.nav-button:hover {
+    background-color: #5a6268;
+}
+
+/* Questão atual (AZUL) */
+.nav-button.current {
+    background-color: #007bff !important;
+    box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Questões já respondidas (VERDE) */
+.nav-button.answered {
+    background-color: #28a745 !important;
+}
+
+/* ================================
+   Estilização do Spinner de Carregamento
+================================= */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa a tela toda */
+}
+
+.loading-spinner {
+    width: 48px;
+    height: 48px;
+    border: 4px solid rgba(0, 123, 255, 0.3);
+    border-top-color: #007bff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Animação de rotação */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* ================================
+   Estilização da Página 404
+================================= */
+.not-found-container {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.not-found-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #dc3545; /* Vermelho para destacar erro */
+    margin-bottom: 20px;
+}
+
+.not-found-text {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.question-options {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}

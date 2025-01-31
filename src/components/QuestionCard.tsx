@@ -19,12 +19,12 @@ const QuestionCard: React.FC<QuestionProps> = ({ question, onAnswer }) => {
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
-      className="bg-white rounded-lg shadow-md p-6"
+      className="question-card"
     >
-      <h3 className="text-xl font-semibold mb-4" aria-live="polite">
+      <h3 className="question-title" aria-live="polite">
         {question.question}
       </h3>
-      <ul className="space-y-3">
+      <ul className="question-options">
         {Object.entries(question.options).map(([key, value]) => (
           <motion.li
             key={key}
@@ -32,15 +32,11 @@ const QuestionCard: React.FC<QuestionProps> = ({ question, onAnswer }) => {
             transition={{ type: "spring", stiffness: 300 }}
           >
             <button
-              className={`w-full p-3 text-left rounded-lg transition-all ${
-                selectedAnswer === key
-                  ? 'bg-blue-100 border-2 border-blue-500'
-                  : 'bg-gray-50 hover:bg-gray-100'
-              }`}
+              className={`answer-button ${selectedAnswer === key ? "selected" : ""}`}
               onClick={() => handleClick(key)}
               aria-checked={selectedAnswer === key}
             >
-              <span className="font-mono mr-2">{key.toUpperCase()}.</span>
+              <span className="answer-key">{key.toUpperCase()}.</span>
               {value}
             </button>
           </motion.li>
