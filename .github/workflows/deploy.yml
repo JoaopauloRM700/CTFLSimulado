@@ -37,6 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'dist/'  # Critical for Vite's output directory
+          retention-days: 1
 
   deploy:
     environment:
