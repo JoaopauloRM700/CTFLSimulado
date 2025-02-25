@@ -130,7 +130,7 @@
       "correct_answer": "b"
     },
     {
-      "question": "Quantos casos de testes são necessários para cobrir todas as possibilidades de declarações (caminhos) para o seguinte fragmento de código? Supondo que as duas condições são independentes entre elas.",
+      "question": "Quantos casos de testes são necessários para cobrir todas as possibilidades de declarações (caminhos) para o seguinte fragmento de código? Supondo que as duas condições são independentes entre elas. \n............\nif (Condition 1) \nthen statement 1 \nelse statement 2 \nfi \nif (Condition 2) then statement 3\n fi\n............ ",
       "options": {
         "a": "2",
         "b": "3",
